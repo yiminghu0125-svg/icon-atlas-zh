@@ -29,18 +29,6 @@
 - 目前固定使用 `@tabler/icons@3.50.0`，不會自動切換最新版，避免新增／移除圖示使對照失準。
 - 中文匹配採詞庫與規則式排序，**不是 LLM 即時語意推論，也不是官方逐筆中文翻譯**。
 
-## GitHub Pages 一次性發布
-
-建議採 **Deploy from a branch**，不需要 GitHub Actions 或網站建置流程。
-
-1. 在 GitHub 建立公開 Repository：`icon-atlas-zh`，建議不要預先勾選 README、.gitignore、LICENSE（避免首次推送衝突）。
-2. 將本目錄所有檔案（包含 `index.html`、`LICENSE`、`licenses/`、`.nojekyll` 等）放到該 Repository 的 `main` 分支根目錄。
-3. 開啟 Repository 的 **Settings → Pages → Build and deployment**。
-4. 選擇 **Source: Deploy from a branch**，**Branch: main**、**Folder: /(root)**，按 **Save**。
-5. 發布完成後，從 Pages 設定頁的 **Visit site** 開啟網址；檢查圖示索引與 SVG 是否正常載入。
-
-詳細圖文操作替代路徑、Git 指令與疑難排除：[`docs/PUBLISH_GITHUB_PAGES.md`](docs/PUBLISH_GITHUB_PAGES.md)。
-
 ## 專案結構
 
 ```text
