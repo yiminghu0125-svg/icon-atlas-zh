@@ -1,0 +1,14 @@
+# Editor and OS artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Local caches or transient test output
+node_modules/
+__pycache__/
+.pytest_cache/
+playwright-report/
+test-results/

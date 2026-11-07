@@ -1,0 +1,1421 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Icon Atlas｜Tabler Icons 繁體中文語意搜尋</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0c111b;--panel:#141e2e;--panel2:#192639;--line:#2c3c51;--text:#eef4ff;--muted:#9daec4;--accent:#67c4ee;--accent2:#92e3d5;--shadow:0 14px 46px #0005;font-family:Inter,ui-sans-serif,system-ui,"Microsoft JhengHei","Noto Sans TC",sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse 1150px 570px at 65% -220px,#203b58 0,transparent 82%),var(--bg);color:var(--text);line-height:1.55}button,input,select{font:inherit}button{cursor:pointer}a{color:var(--accent)}a:hover{color:#b8e7fd}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}button:disabled{opacity:.4;cursor:not-allowed}
+    .shell{max-width:1680px;margin:0 auto;padding:0 34px}.mast{padding-top:31px;padding-bottom:18px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}.brand-mark{width:45px;height:45px;border:1px solid #5da9bb88;border-radius:13px;display:grid;place-items:center;color:var(--accent2);font-size:28px;background:linear-gradient(140deg,#1a394b,#183047 65%,#1f2443)}.brand-word{font-size:17px;letter-spacing:.07em;font-weight:800}.brand-sub{font-size:12px;letter-spacing:.02em;color:var(--muted);font-weight:500}.mast-right{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.mini-link,.top-button{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:#c3d2e4;text-decoration:none;border:1px solid var(--line);border-radius:9px;padding:8px 11px;background:#152133}.top-button:hover,.mini-link:hover{border-color:#6497b0;background:#1c3448;color:#eef7ff}.top-button strong{font-variant-numeric:tabular-nums}
+    .hero{padding:21px 0 25px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:28px}.eyebrow{font-size:11px;letter-spacing:.22em;color:var(--accent2);font-weight:800;margin:0 0 12px}.hero h1{font-size:clamp(25px,3.1vw,42px);letter-spacing:-.04em;line-height:1.2;margin:0 0 13px;font-weight:800}.hero p{margin:0;color:#adbed3;font-size:14px;max-width:850px}.hero-note{border-left:2px solid #4fbaae;padding:9px 0 9px 16px;color:#bdd1e0;font-size:12px;max-width:285px}.hero-note b{display:block;color:#dffcf3;font-size:13px;margin-bottom:4px}
+    .toolbar-wrap{position:sticky;z-index:20;top:0;background:#0d1421ee;backdrop-filter:blur(14px);border-bottom:1px solid #2a3b4d;box-shadow:0 12px 35px #0003}.toolbar{padding-top:18px;padding-bottom:14px}.search-row{display:grid;grid-template-columns:minmax(240px,1fr) auto;gap:12px}.searchbox{position:relative;display:flex;align-items:center;min-height:55px;border:1px solid #48718a;border-radius:12px;background:#19293b;box-shadow:inset 0 0 0 1px #29435870}.searchbox:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px #67c4ee1b}.search-glyph{font-size:23px;margin-left:17px;color:#9fc5da}.searchbox input{width:100%;background:transparent;color:#fff;border:none;outline:none!important;padding:14px 11px 14px 10px;font-size:16px;min-width:0}.searchbox input::placeholder{color:#91a4b8}.search-clear{border:none;background:none;color:#b8c9dd;padding:9px 15px;font-size:18px}.kbd{margin-right:11px;font-size:11px;color:#99b4ca;border:1px solid #4a6073;border-radius:5px;padding:2px 6px;white-space:nowrap}.status-tag{border:1px solid #3a6376;color:#bed9e7;background:#183448;border-radius:10px;min-width:156px;padding:10px 15px;display:flex;flex-direction:column;justify-content:center;text-align:center}.status-tag b{font-size:20px;line-height:1.15;letter-spacing:-.02em;font-variant-numeric:tabular-nums}.status-tag small{font-size:11px;color:#aac0d1;margin-top:3px}.filters{display:flex;gap:9px;flex-wrap:wrap;margin-top:11px;align-items:center}.field{display:flex;align-items:center;gap:8px;min-height:37px;padding:0 11px;border:1px solid var(--line);border-radius:8px;background:#182536;color:#bccce0;font-size:12px}.field label{white-space:nowrap;color:#95a9c0}.field select{border:none;outline:none;max-width:170px;color:#e2edf8;background:transparent;font-size:12px;min-height:34px;min-width:0}.field select option{background:#152334;color:#fff}.field.compact select{max-width:100px}.chip-btn{background:#15283a;border:1px solid #33546b;color:#c1d6e8;border-radius:8px;padding:8px 11px;font-size:12px;min-height:37px}.chip-btn:hover,.chip-btn.active{background:#1e4256;border-color:#7ac1d9;color:white}.filter-sep{flex:1}.query-chip{font-size:12px;background:#172432;color:#b9d5e1;border:1px solid #2d4156;border-radius:999px;padding:5px 10px;flex:none}.query-chip:hover{border-color:var(--accent2);color:white}.query-chip:focus-visible{outline-offset:2px}
+    .advanced-filters{margin-top:9px;border-top:1px dashed #2a4054;padding-top:7px}.advanced-filters summary{color:#a5c0d3;cursor:pointer;list-style:none;font-size:12px;display:inline-flex;align-items:center;gap:7px;padding:5px 0}.advanced-filters summary::-webkit-details-marker{display:none}.advanced-filters summary::before{content:'▸';color:#7fbbd0;display:inline-block;transition:transform .15s}.advanced-filters[open] summary::before{transform:rotate(90deg)}.advanced-filters .filters{margin-top:5px}.help-inline{color:#8fa6ba;font-size:11px;align-self:center}.detail-pills[hidden],.detail-label[hidden]{display:none!important}
+    .body{padding-top:22px;padding-bottom:30px}.result-head{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:0 0 14px;flex-wrap:wrap}.result-head h2{font-size:17px;letter-spacing:.01em;margin:0;font-weight:700}.result-meta{font-size:12px;color:#9caec2;margin:5px 0 0}.right-head{display:flex;gap:8px;align-items:center}.notice{border:1px solid #3a4f66;background:#162534;padding:13px 15px;color:#bfd1e0;border-radius:10px;font-size:13px;margin:0 0 15px}.notice.error{border-color:#aa765d;background:#35271f;color:#f9d9bb}.notice a{white-space:nowrap}.empty{padding:64px 16px;border:1px dashed #41536a;border-radius:14px;text-align:center;color:#a8bdd1}.empty h3{color:#e9f3ff;font-size:20px;margin:0 0 10px}.empty p{margin:0 auto 18px;max-width:680px}.empty .suggestion-list{display:flex;gap:7px;justify-content:center;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:12px}.item{position:relative;min-width:0;border:1px solid #30445c;border-radius:13px;background:#172436;overflow:hidden;transition:transform .16s,border-color .16s,box-shadow .16s}.item:hover{transform:translateY(-2px);border-color:#66abc8;box-shadow:0 12px 26px #0005}.item-main{display:block;width:100%;background:none;border:0;color:inherit;padding:0;text-align:left}.art{height:126px;background:linear-gradient(145deg,#f7fbff,#e5edf7);display:grid;place-items:center;position:relative}.art img{width:40px;height:40px;display:block;object-fit:contain}.style-dot{position:absolute;top:9px;left:9px;padding:3px 6px;background:#e4eaf2;color:#475a71;border-radius:5px;font-size:10px;font-weight:700;letter-spacing:.03em}.item-body{padding:11px 11px 12px;min-height:84px}.zh{font-size:13px;font-weight:650;margin:0 0 4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#e7f2fd}.icon-name{font:11px ui-monospace,Consolas,monospace;color:#8db9d4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 0 5px}.cat{font-size:10px;color:#879eb5}.item-bottom{display:flex;gap:5px;padding:0 10px 10px}.small-btn{border:1px solid #3a5870;border-radius:7px;padding:5px 6px;flex:1;background:#1e3146;color:#c7e6f4;font-size:11px;min-width:0;white-space:nowrap}.small-btn:hover{border-color:#86bcd4;background:#28475c}.favorite{flex:0 0 30px;font-size:18px;line-height:1;padding:3px 0;color:#92a8be}.favorite.on{color:#f8d17d}.favorite:focus-visible{outline-offset:1px}.pager{margin:26px auto 7px;display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap}.pager button{border:1px solid #3a5065;background:#172436;color:#d9e8f7;border-radius:8px;padding:8px 12px;min-width:45px}.pager button:hover:not(:disabled){background:#28465f}.pager input{width:68px;border:1px solid #395268;border-radius:7px;background:#172436;color:white;text-align:center;padding:7px;font-variant-numeric:tabular-nums}.pager span{color:#a4b5c9;font-size:12px}.foot{margin-top:20px;padding:22px 0 35px;border-top:1px solid #263951;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px;color:#91a3b7}.foot p{max-width:770px;margin:0;line-height:1.8}
+    dialog{border:1px solid #425c74;border-radius:16px;background:#152134;color:var(--text);box-shadow:0 28px 90px #000c;max-width:min(820px,calc(100vw - 28px));width:100%;padding:0;max-height:calc(100vh - 24px);overflow:auto}dialog::backdrop{background:#020813cb;backdrop-filter:blur(4px)}.dlg-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:20px 23px;border-bottom:1px solid #2a3e53}.dlg-head small{display:block;color:var(--accent2);font-size:11px;letter-spacing:.12em;font-weight:700;margin-bottom:4px}.dlg-head h3{margin:0;font-size:20px;overflow-wrap:anywhere}.close{border:1px solid #42586e;background:#1a2a3f;color:#d4e5f4;border-radius:9px;padding:5px 11px;font-size:23px;line-height:1}.dlg-main{display:grid;grid-template-columns:38% minmax(0,1fr);gap:22px;padding:23px}.dlg-preview{border-radius:13px;background:#f1f6fc;min-height:266px;display:grid;place-items:center}.dlg-preview img{width:100px;height:100px}.detail-label{font-size:12px;color:#94a8bf;display:block;margin-bottom:5px}.detail-value{font-size:13px;color:#e6f2ff;line-height:1.7;margin-bottom:14px;overflow-wrap:anywhere}.detail-pills{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}.detail-pill{font-size:11px;border:1px solid #355066;background:#1d3044;color:#c4ddeb;padding:4px 7px;border-radius:6px}.actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:7px}.action{border-radius:9px;border:1px solid #46728e;background:#20415a;color:#e3f6ff;padding:11px 9px;font-weight:650;font-size:12px}.action:hover{background:#2d5d7e}.action.primary{background:#2f7594;border-color:#61b9d5}.action.wide{grid-column:span 2}.detail-footer{margin:0;padding:12px 23px 20px;border-top:1px solid #2a3e53;font-size:12px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.detail-footer a{overflow-wrap:anywhere}.toast{position:fixed;right:22px;bottom:22px;z-index:99;background:#23556d;color:#f0fdff;box-shadow:var(--shadow);border:1px solid #6ab9d5;border-radius:9px;padding:12px 16px;font-size:13px;max-width:calc(100vw - 40px)}.toast[hidden]{display:none}.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:950px){.shell{padding-left:20px;padding-right:20px}.hero{grid-template-columns:1fr}.hero-note{display:none}.mast{padding-top:20px}.grid{grid-template-columns:repeat(auto-fill,minmax(145px,1fr))}.art{height:117px}.filter-sep{display:none}}
+    @media(max-width:600px){.toolbar-wrap{position:static}.filters{align-items:stretch}.field{min-width:calc(50% - 4px)}.field label{white-space:nowrap}.advanced-filters .filters{flex-wrap:wrap}.shell{padding-left:14px;padding-right:14px}.mast-right .mini-link{display:none}.brand-word{font-size:15px}.brand-mark{height:38px;width:38px}.hero{padding-top:17px;padding-bottom:18px}.hero h1{font-size:26px}.search-row{grid-template-columns:1fr}.status-tag{display:none}.searchbox input{font-size:14px}.kbd{display:none}.filters{gap:7px}.field{flex:1;min-width:calc(50% - 4px)}.field select{max-width:unset;width:100%}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.art{height:100px}.art img{width:36px;height:36px}.item-body{padding:9px;min-height:83px}.item-bottom{padding:0 8px 8px}.dlg-main{grid-template-columns:1fr;padding:15px}.dlg-preview{min-height:170px}.dlg-preview img{height:85px;width:85px}.dlg-head{padding:15px}.detail-footer{padding:12px 15px}.foot{padding-bottom:20px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.item{transition:none}}
+  
+    /* Stable-height sticky search; regular filters naturally scroll away. */
+    html{scroll-padding-top:76px}
+    .search-sticky{position:sticky;top:0;z-index:20;background:#0d1421f5;backdrop-filter:blur(14px);border-bottom:1px solid #2a3b4d;box-shadow:0 10px 24px #0003}
+    .search-inner{padding-top:9px;padding-bottom:9px}
+    .search-row{grid-template-columns:minmax(0,1fr) auto auto;gap:10px}
+    .search-sticky .searchbox{min-height:46px}
+    .search-sticky .searchbox input{padding-top:10px;padding-bottom:10px}
+    .search-sticky .status-tag{min-width:110px;padding:5px 10px}
+    .search-sticky .status-tag b{font-size:17px}
+    .search-sticky .status-tag small{display:none}
+    .search-sticky .kbd{display:none}
+    .filter-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 13px;white-space:nowrap}
+    .toolbar-wrap{position:static;background:#101a28;box-shadow:none;backdrop-filter:none}
+    .toolbar{padding-top:8px;padding-bottom:10px}
+    @media(max-width:600px){
+      .toolbar-wrap{position:static}
+      .search-row{grid-template-columns:minmax(0,1fr) auto;gap:7px}
+      .search-sticky .status-tag{display:none}
+      .search-sticky .searchbox{min-height:44px}
+      .search-sticky .searchbox input{font-size:13px}
+      .search-sticky .search-glyph{margin-left:10px}
+      .filter-toggle{min-height:44px;padding:0 10px;font-size:12px}
+    }
+  </style>
+</head>
+<body>
+  <header class="shell mast">
+    <a class="brand" href="#top" aria-label="返回 Icon Atlas 頁首"><span class="brand-mark" aria-hidden="true">◈</span><span><span class="brand-word">ICON ATLAS</span><span class="brand-sub" style="display:block">TABLER ICONS · 中文語意探索</span></span></a>
+    <nav class="mast-right" aria-label="工具連結">
+      <a class="mini-link" href="https://tabler.io/icons" target="_blank" rel="noopener noreferrer">Tabler 官方圖庫 ↗</a>
+      <a class="mini-link" href="https://github.com/tabler/tabler-icons" target="_blank" rel="noopener noreferrer">GitHub 來源 ↗</a>
+      <button class="top-button" id="favTop" type="button" aria-pressed="false">☆ 我的收藏 <strong id="favCount">0</strong></button>
+    </nav>
+  </header>
+  <section class="shell hero" id="top">
+    <div><div class="eyebrow">FIND ICONS BY MEANING, NOT JUST BY NAME</div><h1>從物件名稱到操作動作，都能用中文找 Icon。</h1><p>以 Tabler Icons 官方 <b>3.50.0</b> 全系列圖示為基礎，新增「蘋果、香蕉、櫻桃、花朵」等英文單詞直譯及「圖釘、訊號、鎖住、取用」日常說法、輔助用途分類，以及單詞／多詞條件。支援 Outline／Filled、官方英文名稱與 Tags；點擊圖示可預覽、複製名稱或 SVG。</p></div>
+    <aside class="hero-note"><b>只做搜尋與選型，不連動任何專案</b>單一 HTML；無帳號、無 API Key、無後端。官方圖像與索引首次載入需網路連線。</aside>
+  </section>
+  <div class="search-sticky"><div class="shell search-inner">
+    <div class="search-row">
+      <div class="searchbox"><span class="search-glyph" aria-hidden="true">⌕</span><label class="visually-hidden" for="search">搜尋圖示名稱或中文用途</label><input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="用中文搜尋：蘋果、香蕉、櫻桃、圖釘、訊號、鎖住、取用…"><button type="button" class="search-clear" id="clearSearch" aria-label="清除搜尋" title="清除搜尋">×</button><span class="kbd" aria-hidden="true">/</span></div>
+      <button id="filterToggle" class="chip-btn filter-toggle" type="button" title="移至搜尋篩選條件">☷ 篩選</button>
+      <div class="status-tag" aria-live="polite"><b id="totalCount">讀取中</b><small id="totalDetail">官方圖示清單</small></div>
+    </div>
+  </div></div>
+  <div class="toolbar-wrap"><div class="shell toolbar">
+    <div class="filters primary-filters" id="primaryFilters">
+      <div class="field"><label for="useGroup">常用分類</label><select id="useGroup"><option value="all">全部圖示</option></select></div>
+      <div class="field"><label for="style">外觀</label><select id="style"><option value="all">線框＋實心</option><option value="outline">Outline 線框</option><option value="filled">Filled 實心</option></select></div>
+      <div class="field"><label for="matchMode">搜尋方式</label><select id="matchMode"><option value="smart">中文語意＋官方</option><option value="official">官方名稱＋Tags（英文）</option><option value="name">僅官方英文名稱</option></select></div>
+      <span class="filter-sep"></span><button class="chip-btn" id="favFilter" type="button" aria-pressed="false">☆ 僅看收藏</button><button class="chip-btn" id="resetAll" type="button">重設全部</button>
+    </div>
+    <details class="advanced-filters" id="advancedFilters"><summary>更多篩選條件：官方分類、多詞比對、排序、每頁數量</summary>
+      <div class="filters">
+        <div class="field"><label for="category">官方分類</label><select id="category"><option value="all">所有官方類別</option></select></div>
+        <div class="field"><label for="wordRule">多詞條件</label><select id="wordRule"><option value="all">全部符合（AND）</option><option value="any">符合任一（OR）</option></select></div>
+        <div class="field compact"><label for="sort">排序</label><select id="sort"><option value="relevance">相關度優先</option><option value="alpha">英文名稱 A–Z</option></select></div>
+        <div class="field compact"><label for="pageSize">每頁</label><select id="pageSize"><option value="72">72 個</option><option value="120">120 個</option><option value="180">180 個</option></select></div>
+        <span class="help-inline">多詞例：輸入「鎖住 檔案」，可選全部符合或符合任一。</span>
+      </div>
+    </details>
+  </div></div>
+  <main class="shell body">
+    <div class="result-head"><div><h2 id="resultTitle">所有官方圖示</h2><p class="result-meta" id="resultMeta" aria-live="polite">正在取得官方 Metadata…</p></div><div class="right-head"><button id="exportFav" type="button" class="chip-btn" title="匯出收藏圖示的 CSV 清單">匯出收藏 CSV</button></div></div>
+    <div id="notice" class="notice" role="status">正在讀取 Tabler Icons 官方 3.50.0 圖示索引；完成後即可使用完整中文搜尋。</div>
+    <section class="grid" id="grid" aria-label="圖示搜尋結果"></section>
+    <div id="empty" class="empty" hidden><h3 id="emptyTitle">沒有找到符合的圖示</h3><p id="emptyText">可改用較短的物件名稱、直譯詞或動作，例如「蘋果」、「花朵」、「圖釘」、「鎖住」。若多詞搜尋沒有結果，可展開「更多篩選條件」並改選「符合任一（OR）」。</p><div class="suggestion-list"><button class="query-chip" data-query="搜尋">搜尋</button><button class="query-chip" data-query="設定">設定</button><button class="query-chip" data-query="完成">完成</button><button class="query-chip" data-query="資料庫">資料庫</button></div></div>
+    <nav class="pager" id="pager" aria-label="搜尋結果分頁" hidden><button type="button" id="firstPage">首頁</button><button type="button" id="prevPage">上一頁</button><span id="pageLabel"></span><label for="jumpPage" class="visually-hidden">輸入頁碼</label><input id="jumpPage" type="number" min="1" step="1" aria-label="跳轉至頁碼"><button type="button" id="jumpBtn">跳轉</button><button type="button" id="nextPage">下一頁</button><button type="button" id="lastPage">末頁</button></nav>
+  </main>
+  <footer class="shell foot"><p>資料範圍：官方 <code>@tabler/icons@3.50.0</code> 的 <code>icons.json</code> 與 SVG；此頁的繁體中文名稱、英文字詞直譯、同義詞、用途分類及語意排序由本工具另行建立，<b>不是 Tabler 官方翻譯，也不是 AI 即時推論</b>。全部圖示皆為官方原始樣式，圖示數量以載入的官方 Metadata 為準。本網站為獨立工具。</p><p>圖示來源：<a href="https://github.com/tabler/tabler-icons" target="_blank" rel="noopener noreferrer">Tabler Icons</a> © 2020–2026 Paweł Kuna（<a href="./licenses/TABLER_ICONS_LICENSE.txt">MIT License</a>）。本站為非官方獨立搜尋工具；網站程式另採 <a href="./LICENSE">MIT License</a>。<br>檔案日期：2026-11-08 · <a href="https://www.npmjs.com/package/@tabler/icons/v/3.50.0" target="_blank" rel="noopener noreferrer">固定版本 3.50.0</a></p></footer>
+  <dialog id="detail" aria-label="圖示詳細資訊">
+    <div class="dlg-head"><div><small id="detailType">官方 Tabler Icon</small><h3 id="detailName"></h3></div><button id="closeDetail" class="close" type="button" aria-label="關閉詳細資訊">×</button></div>
+    <div class="dlg-main"><div class="dlg-preview"><img id="detailImg" width="100" height="100" alt=""></div><div>
+      <span class="detail-label">中文輔助名稱（非官方）</span><div class="detail-value" id="detailZh"></div>
+      <span class="detail-label">官方分類</span><div class="detail-value" id="detailCat"></div>
+      <span class="detail-label">自訂用途分類（非官方）</span><div class="detail-pills" id="detailGroups"></div>
+      <span class="detail-label" id="detailAliasesLabel" hidden>補充中文搜尋詞（非官方）</span><div class="detail-pills" id="detailAliases" hidden></div>
+      <span class="detail-label">官方英文 Tags</span><div class="detail-pills" id="detailTags"></div>
+      <span class="detail-label">Vue 元件識別</span><div class="detail-value"><code id="detailComponent"></code></div>
+      <div class="actions"><button class="action primary" id="copyName" type="button">複製 Icon 名稱</button><button class="action" id="copyVue" type="button">複製 Vue 語法</button><button class="action" id="copySVG" type="button">複製 SVG 原始碼</button><button class="action" id="downloadSVG" type="button">下載 SVG</button><button class="action wide" id="detailFavorite" type="button">☆ 加入收藏</button></div>
+    </div></div><div class="detail-footer"><a id="officialLink" target="_blank" rel="noopener noreferrer">查看 Tabler 官方頁面 ↗</a><a id="svgLink" target="_blank" rel="noopener noreferrer">開啟官方 SVG ↗</a></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script>
+'use strict';
+// Index: Official @tabler/icons@3.50.0 /icons.json. The semantic dictionary below is locally-authored, NOT official translation or hosted AI.
+const VERSION = '3.50.0';
+const OFFICIAL_BASE = `https://cdn.jsdelivr.net/npm/@tabler/icons@${VERSION}`;
+const META_SOURCES = [`${OFFICIAL_BASE}/icons.json`, `https://unpkg.com/@tabler/icons@${VERSION}/icons.json`];
+const CATEGORY_ZH = {
+  'Animals':'動物','Arrows':'方向與箭頭','Badges':'徽章','Brand':'品牌','Buildings':'建築','Charts':'圖表','Communication':'通訊','Computers':'電腦','Currencies':'貨幣','Database':'資料庫','Design':'設計','Development':'開發','Devices':'裝置','Document':'文件','E-commerce':'電子商務','Electrical':'電力','Extensions':'擴充','Food':'飲食','Games':'遊戲','Gender':'性別','Gestures':'手勢','Health':'健康','Laundry':'洗滌','Letters':'字母','Logic':'邏輯','Map':'地圖與位置','Math':'數學','Media':'媒體','Mood':'情緒','Nature':'自然','Numbers':'數字','Photography':'攝影','Shapes':'形狀','Sport':'運動','Symbols':'符號','System':'系統','Text':'文字','Vehicles':'交通工具','Version control':'版本控制','Weather':'天氣','Zodiac':'星座'
+};
+// Fast name-to-Chinese help. This is intentionally a helper, not a claim of 100% human translation.
+const TOKEN_ZH = {
+  'add':'新增','alert':'警告','alarm':'鬧鐘','archive':'封存','arrow':'箭頭','arrows':'箭頭','at':'小老鼠符號','attachment':'附件','back':'返回','backup':'備份','badge':'徽章','ball':'球','ban':'禁止','battery':'電池','bell':'通知鈴','bike':'自行車','bolt':'閃電','book':'書本','bookmark':'書籤','box':'方盒','brand':'品牌','briefcase':'公事包','browser':'瀏覽器','building':'建築','calendar':'日曆','camera':'相機','caret':'三角箭頭','cash':'現金','chart':'圖表','check':'完成勾選','checks':'多重勾選','chevron':'導覽箭頭','chevrons':'雙箭頭','circle':'圓形','circles':'圓形','clipboard':'剪貼簿','clock':'時鐘','cloud':'雲端','code':'程式碼','coin':'硬幣','color':'顏色','columns':'欄位','comment':'留言','compass':'指南針','copy':'複製','credit':'信用','crop':'裁切','cross':'叉號','currency':'貨幣','cut':'剪下','dashboard':'儀表板','database':'資料庫','delete':'刪除','device':'裝置','devices':'裝置','direction':'方向','document':'文件','dots':'更多','download':'下載','edit':'編輯','email':'電子郵件','eraser':'橡皮擦','error':'錯誤','exchange':'交換','exclamation':'驚嘆號','external':'外部','eye':'檢視','file':'檔案','files':'檔案','filter':'篩選','flag':'旗標','folder':'資料夾','folders':'資料夾','forward':'前進','frame':'框架','gantt':'甘特圖','gift':'禮物','git':'版本控制','globe':'地球','graph':'曲線圖','grid':'格線','grip':'拖曳握把','group':'群組','hand':'手','heart':'愛心','help':'說明','history':'歷史','home':'首頁','hourglass':'沙漏','id':'識別','image':'圖片','images':'圖片','import':'匯入','inbox':'收件匣','indent':'縮排','info':'資訊','invoice':'發票','key':'金鑰','keyboard':'鍵盤','language':'語言','layout':'版面','left':'左','link':'連結','list':'清單','loading':'載入','location':'位置','lock':'鎖定','login':'登入','logout':'登出','mail':'郵件','map':'地圖','menu':'選單','message':'訊息','microphone':'麥克風','minus':'減少','mobile':'手機','moon':'月亮','more':'更多','move':'移動','music':'音樂','network':'網路','news':'新聞','note':'筆記','notes':'筆記','notification':'通知','number':'數字','off':'關閉','on':'開啟','open':'開啟','package':'套件','palette':'調色盤','paperclip':'迴紋針','pause':'暫停','pencil':'鉛筆','photo':'照片','photos':'照片','pin':'釘選','play':'播放','playlist':'播放清單','plus':'新增','printer':'列印','progress':'進度','project':'專案','question':'問題','receipt':'收據','redo':'重做','refresh':'重新整理','repeat':'重複','replace':'取代','report':'報告','restore':'還原','right':'右','robot':'機器人','rocket':'火箭','rotate':'旋轉','save':'儲存','scan':'掃描','search':'搜尋','security':'安全','send':'傳送','server':'伺服器','settings':'設定','share':'分享','shield':'防護','shopping':'購物','sort':'排序','speaker':'喇叭','square':'方形','star':'星號','stop':'停止','subtask':'子任務','sun':'太陽','switch':'切換','sync':'同步','table':'表格','tag':'標籤','tags':'標籤','target':'目標','task':'任務','terminal':'終端機','text':'文字','thumb':'大拇指','thumbs':'大拇指','ticket':'票券','time':'時間','timeline':'時間軸','tool':'工具','tools':'工具','trash':'垃圾桶','tree':'樹狀','triangle':'三角形','truck':'卡車','unarchive':'取消封存','undo':'復原','unlock':'解鎖','up':'上','down':'下','upload':'上傳','user':'使用者','users':'使用者群組','video':'影片','view':'檢視','volume':'音量','wallet':'錢包','warning':'警示','wifi':'無線網路','world':'世界','write':'撰寫','x':'關閉','zoom':'縮放','ai':'人工智慧','cpu':'處理器','pdf':'PDF','csv':'CSV','excel':'Excel','json':'JSON','vue':'Vue','brand':'品牌','filled':'實心','outline':'線框','due':'到期','deadline':'截止日','event':'事件','week':'週','month':'月','year':'年','today':'今天','tomorrow':'明天','schedule':'排程','layout':'布局','chart':'圖表','bar':'長條','line':'線條','pie':'圓餅','stack':'堆疊','percentage':'百分比','percent':'百分比','currency':'貨幣','attachment':'附件','verified':'已驗證','approved':'已核准','cancel':'取消','cancelled':'已取消','failed':'失敗','lockdown':'封鎖','forbid':'禁止','ban':'禁止','blocked':'封鎖','building':'建築','school':'學校','hospital':'醫院','home':'首頁','house':'房屋','bus':'公車','car':'汽車','airplane':'飛機','plane':'飛機','train':'火車','coffee':'咖啡','food':'食物','leaf':'葉子','flower':'花','flame':'火','droplet':'水滴','water':'水','wind':'風','snow':'雪','rain':'雨','cloudy':'多雲','earth':'地球','moon':'月亮','sun':'太陽','phone':'電話','call':'通話','message':'訊息','chat':'聊天','headphones':'耳機','mouse':'滑鼠','monitor':'螢幕','desktop':'桌面','laptop':'筆電','tablet':'平板','keyboard':'鍵盤','speaker':'喇叭','folder':'資料夾','file':'文件','doc':'文件','docs':'文件','folder':'資料夾','mail':'郵件','inbox':'收件匣','outbox':'寄件匣','player':'播放器','volume':'音量','music':'音樂','star':'星星','heart':'愛心','heartbroken':'心碎','mood':'情緒','smile':'微笑','sad':'難過','angry':'生氣','confused':'困惑','brain':'大腦','sparkles':'閃光','sparkle':'閃光','wand':'魔法棒','plug':'插頭','puzzle':'拼圖','bug':'程式錯誤','test':'測試','flask':'實驗','code':'程式碼','git':'Git','branch':'分支','merge':'合併','commit':'提交','database':'資料庫','sql':'SQL','api':'API','webhook':'Webhook','wifi':'Wi-Fi','router':'路由器','cloud':'雲端','server':'伺服器','shield':'盾牌','fingerprint':'指紋','password':'密碼','key':'鑰匙','eye':'眼睛','eyeoff':'隱藏','visible':'可見','hidden':'隱藏','align':'對齊','horizontal':'水平','vertical':'垂直','top':'上方','bottom':'下方','center':'置中','left':'左','right':'右','first':'第一','last':'最後','next':'下一個','previous':'上一個','circle':'圓形','hexagon':'六邊形','octagon':'八邊形','triangle':'三角形','square':'方形','rectangle':'矩形','hex':'十六進位','question':'疑問','exclamation':'驚嘆號','info':'資訊','checklist':'檢查清單','clipboard':'剪貼簿','list':'列表','notes':'便條','check':'確認','lock':'鎖頭','lockopen':'開鎖','wallet':'錢包','coins':'錢幣','currency':'貨幣','dollar':'美元','euro':'歐元','yen':'日圓','bitcoin':'比特幣','credit':'信用','card':'卡片','receipt':'收據','invoice':'發票'
+};
+const EXACT_ZH = {
+  'playlist-add':'新增清單項目','subtask':'新增子任務','calendar-due':'到期日提醒','calendar-cog':'排程設定','device-floppy':'儲存資料','arrow-back-up':'復原上一步','arrow-forward-up':'重做上一步','circle-check':'已完成','circle-x':'取消／失敗','alert-triangle':'風險警告','alert-circle':'異常提示','info-circle':'說明資訊','shield-lock':'權限防護','lock-access':'限制存取','lock-exclamation':'權限異常','user-check':'使用者已驗證','user-off':'停用使用者','user-x':'移除使用者','user-plus':'新增使用者','folder-plus':'新增資料夾','file-plus':'新增檔案','file-upload':'上傳檔案','file-download':'下載檔案','cloud-upload':'雲端上傳','cloud-download':'雲端下載','cloud-check':'雲端同步完成','cloud-off':'雲端離線','clipboard-check':'任務檢查完成','clipboard-list':'任務清單','list-check':'檢查清單','list-details':'細節清單','chart-bar':'長條圖統計','chart-line':'趨勢折線圖','chart-pie':'圓餅圖統計','chart-dots':'資料分布圖','chart-area':'面積趨勢圖','activity':'活動監控','progress':'進度狀態','progress-check':'進度已完成','progress-alert':'進度異常','clock-exclamation':'時間異常提醒','calendar-exclamation':'日曆異常提醒','calendar-event':'行事曆事件','calendar-time':'日曆時間','clock-hour-4':'時間／時鐘','hourglass':'等待中','bell':'提醒通知','bell-ringing':'持續提醒','bell-off':'關閉通知','bell-plus':'新增提醒','message-circle':'對話訊息','message-2':'訊息內容','message-circle-exclamation':'訊息異常','mail':'電子郵件','mail-forward':'轉寄郵件','mail-check':'郵件已確認','mail-x':'郵件錯誤','search':'搜尋','filter':'條件篩選','filter-off':'取消篩選','sort-ascending':'升冪排序','sort-descending':'降冪排序','list-search':'清單搜尋','database-search':'資料庫搜尋','folder-search':'資料夾搜尋','copy':'複製','clipboard':'剪貼簿','cut':'剪下','trash':'刪除','trash-x':'永久刪除','edit':'編輯資料','pencil':'修改／筆記','refresh':'重新整理','reload':'重新載入','settings':'系統設定','adjustments':'調整設定','layout-columns':'欄位配置','columns-3':'三欄配置','grip-vertical':'垂直拖曳排序','arrows-sort':'排序切換','git-branch':'分支管理','git-merge':'分支合併','git-pull-request':'合併請求','code':'程式碼','code-dots':'程式碼片段','bug':'程式錯誤','terminal':'終端機','robot':'機器人','brain':'大腦／AI','sparkles':'智慧與創意','wand':'魔法工具','key':'存取金鑰','key-off':'金鑰失效','lock':'鎖定','lock-open':'解除鎖定','shield-check':'安全驗證通過','shield-exclamation':'安全風險','shield-x':'防護失敗','folder':'資料夾','file':'檔案','files':'多個檔案','paperclip':'附件','link':'超連結','link-off':'解除連結','external-link':'外部連結','users':'使用者群組','users-group':'多人群組','user':'使用者','briefcase':'工作／業務','building':'建築','home':'首頁','map-pin':'地圖定位','target':'目標標的','flag':'旗標標記','flag-check':'標記完成','bookmark':'書籤','pin':'釘選','pin-filled':'釘選狀態','star':'加入最愛','star-filled':'已加入最愛','eye':'顯示內容','eye-off':'隱藏內容','download':'下載','upload':'上傳','printer':'列印','share':'分享','send':'傳送','login':'登入','logout':'登出','door-enter':'進入','door-exit':'離開','calendar':'日曆','calendar-week':'週曆','calendar-month':'月曆','calendar-stats':'日曆統計','timeline':'時間軸','arrows-up-down':'上下調整','arrow-up':'往上移動','arrow-down':'往下移動','chevrons-up':'全部收合','chevrons-down':'全部展開','chevron-left':'往左／上一頁','chevron-right':'往右／下一頁','x':'取消／關閉','plus':'新增','minus':'減少','check':'確認','help':'說明與協助','question-mark':'問題／疑問','alert-octagon':'重大風險','report':'報告','report-analytics':'分析報告','file-report':'檔案報告'
+};
+// Curated daily-language labels supplement the automatically assembled icon names.
+Object.assign(TOKEN_ZH, {
+  'pin':'圖釘','pinned':'已釘選','thumbtack':'圖釘','signal':'訊號','antenna':'天線','radio':'無線電','broadcast':'廣播','wifi':'無線網路','wireless':'無線','router':'路由器','access':'存取','permission':'權限','finger':'手指','click':'點擊','pointer':'游標','cursor':'游標','scan':'掃描','wave':'波形','waveform':'波形','switch':'切換','toggle':'切換','plug':'插頭','lock':'鎖頭','unlock':'解鎖','funnel':'漏斗','shield':'盾牌','power':'電源','floppy':'磁碟片','grabbing':'抓取','grab':'抓取','hand':'手掌','open':'開啟','closed':'關閉','mute':'靜音','muteoff':'取消靜音','question':'問號','screenshot':'螢幕截圖'
+});
+Object.assign(EXACT_ZH, {
+  'pin':'圖釘／釘選','pinned':'已釘選','pinned-off':'取消釘選','map-pin':'地圖定位圖釘','map-pin-filled':'定位圖釘（實心）','thumbtack':'圖釘','signal':'訊號','signal-2':'訊號強度 2','signal-3':'訊號強度 3','signal-4':'訊號強度 4','signal-off':'無訊號','antenna':'天線','antenna-bars-1':'天線訊號 1 格','antenna-bars-2':'天線訊號 2 格','antenna-bars-3':'天線訊號 3 格','antenna-bars-4':'天線訊號 4 格','wifi':'Wi-Fi 無線訊號','wifi-off':'Wi-Fi 斷線','lock':'鎖頭／鎖住','lock-open':'開鎖／解鎖','lock-access':'限制存取','file-lock':'檔案鎖定','folder-open':'開啟／取用資料夾','file-download':'下載／取回檔案','database-search':'資料庫查詢／取用','bell':'鈴鐺／通知','settings':'齒輪／設定','search':'放大鏡／搜尋','filter':'漏斗／篩選','shield':'盾牌／保護','key':'鑰匙／金鑰','hand-click':'手指點擊','pointer':'滑鼠指標','device-floppy':'磁碟片／儲存','eye':'眼睛／檢視','eye-off':'閉眼／隱藏','toggle-left':'關閉切換','toggle-right':'啟用切換'
+});
+const EXTRA_ALIASES = {
+  'pin':['圖釘','大頭針','釘選','固定'], 'pinned':['已釘選','置頂','固定'], 'pinned-off':['取消釘選','解除固定'],
+  'map-pin':['定位針','位置標記','地圖圖釘'], 'signal':['訊號','信號','收訊'], 'signal-off':['沒訊號','無收訊','訊號中斷'],
+  'wifi':['Wi-Fi','無線網路','無線訊號'], 'wifi-off':['網路斷線','無線訊號中斷'], 'antenna':['天線','訊號發射','訊號接收'],
+  'lock':['鎖頭','上鎖','鎖住'], 'lock-open':['解鎖','開鎖','解除鎖定'], 'file-lock':['鎖住檔案','檔案權限'],
+  'lock-access':['存取權限','限制取用'], 'folder-open':['開啟資料夾','取用檔案'], 'file-download':['取回檔案','下載'],
+  'database-search':['讀取資料','查詢資料','取用資料'], 'download':['取回','取得','下載'], 'hand-click':['點擊','點一下'],
+  'bell':['鈴鐺','提醒鈴','通知'], 'settings':['齒輪','設定'], 'search':['放大鏡','找東西'], 'filter':['漏斗','過濾'],
+  'shield':['盾牌','防護'], 'key':['鑰匙','存取金鑰'], 'device-floppy':['磁碟片','儲存'], 'eye':['眼睛','檢視'],
+  'toggle-left':['停用','切換關閉'], 'toggle-right':['啟用','切換開啟']
+};
+// A supplementary vocabulary: concepts point to existing official icon names/tags only.
+const SEMANTIC_EXTRA_ROWS = [
+  // Objects and shapes
+  '圖釘 大頭針 別針 釘子 針釘 推針 圖釘圖案 | pin pinned thumbtack pushpin',
+  '定位圖釘 地圖圖釘 地圖針 定位針 位置標記 地標針 | map-pin map-pin-filled location map-pin-check',
+  '訊號 信號 收訊 訊號格 訊號強弱 訊號強度 訊號顯示 | signal signal-2 signal-3 signal-4 antenna wifi',
+  '無訊號 沒訊號 無收訊 收不到訊號 訊號中斷 訊號消失 | signal-off wifi-off antenna-off network-off',
+  '訊號差 低訊號 收訊差 弱訊號 訊號微弱 訊號一格 | signal-1 signal-2 antenna-bars-1 wifi-0 wifi-1',
+  '訊號好 滿格訊號 收訊好 訊號滿格 訊號強 | signal-4 antenna-bars-4 wifi signal',
+  '無線訊號 Wi-Fi訊號 wifi訊號 無線網路訊號 | wifi wifi-2 signal antenna',
+  '天線 接收器 發射器 訊號塔 訊號發射 | antenna antenna-bars-3 radio broadcast',
+  '聲波 音波 聲音訊號 音訊波形 波型 | wave-sine waveform activity volume',
+  '鎖頭 掛鎖 門鎖 小鎖 密碼鎖 鎖頭圖示 | lock lock-square lock-filled keyhole',
+  '鑰匙 開門鑰匙 鑰匙孔 | key keyhole key-off',
+  '盾牌 盾 防護盾 安全盾 保護罩 | shield shield-check shield-lock',
+  '鈴鐺 提醒鈴 小鈴鐺 叮噹 鐘鈴 | bell bell-ringing notification',
+  '放大鏡 搜尋鏡 放大鏡圖案 | search zoom-in zoom',
+  '漏斗 過濾漏斗 篩選漏斗 | filter filter-off filter-search',
+  '齒輪 牙輪 設定齒輪 小齒輪 | settings settings-2 settings-cog',
+  '眼睛 眼球 眼神 視線 | eye eye-check eye-off',
+  '叉叉 叉號 交叉符號 叉記 | x circle-x square-x',
+  '勾勾 勾號 勾選符號 對勾 | check circle-check checks square-check',
+  '磁片 磁碟片 軟碟片 磁碟 儲存磁碟 | device-floppy device-sd-card',
+  '房子 小屋 住家 房屋圖案 | home building-house home-2',
+  '旗子 小旗 旗幟 標記旗 | flag flag-2 flag-3',
+  '手指 手掌 手勢 手形 | hand hand-finger hand-click hand-move',
+  '游標 鼠標 滑鼠游標 箭頭游標 指標 | pointer cursor arrow-up-left',
+  '電源 開關鍵 電源符號 | power toggle-right device-desktop',
+  '閃電 電光 雷電 | bolt bolt-off cloud-storm',
+  '雲朵 雲圖 白雲 雲層 | cloud cloud-check cloud-upload',
+  '紙飛機 飛出去的紙飛機 傳送圖案 | send send-2 plane',
+  '沙漏 計時沙漏 時間漏斗 | hourglass hourglass-low clock',
+  // Actions and practical intents
+  '鎖住 鎖起來 鎖上 加鎖 上鎖 鎖牢 鎖定資料 鎖住檔案 | lock file-lock lock-square shield-lock',
+  '解鎖 解開鎖 鎖解開 打開鎖 開鎖 解除鎖住 | lock-open lock-off lock-access',
+  '取用 取得 取回 拿取 領取 提取 調用 拿出來 | download file-download folder-open hand-grab',
+  '取用檔案 取得檔案 取回檔案 拿到檔案 打開檔案 | file-download folder-open download file-search',
+  '取用資料 存取資料 讀取資料 撈資料 取得資料 調閱資料 | database-search database-import file-search folder-open',
+  '取用權限 存取權限 取用許可 允許取用 核准取用 | lock-access shield-check key user-check',
+  '不可取用 無法取用 禁止取用 存取被拒 無法存取 | lock-exclamation shield-x forbidden ban',
+  '讀取 讀出 讀檔 讀入 查閱 調閱 翻閱 | file-search database-search folder-open eye',
+  '擷取 抓取 抓下來 抽取資料 抓取資料 | copy hand-grab database-search download',
+  '截圖 畫面截圖 螢幕截圖 擷取畫面 | screenshot photo camera',
+  '存入 放入 存放 寫入資料 放進資料庫 | database-import file-import device-floppy',
+  '點擊 點一下 按一下 按鍵 按下按鈕 | hand-click pointer click',
+  '釘住 固定住 釘在上面 釘選住 固定在頂部 | pin pinned thumbtack',
+  '拿掉圖釘 解除釘選 不再置頂 取消置頂 | pinned-off pin-off',
+  '啟用 開啟功能 打開功能 開通功能 啟動功能 | toggle-right player-play power',
+  '停用 關掉功能 禁用功能 停止功能 停止使用 | toggle-left player-stop power',
+  '禁止 封鎖 擋住 不允許 禁止進入 拒絕 拒絕操作 | ban forbidden shield-x hand-stop',
+  '允許 放行 放過 通過 核可 准許 | shield-check check circle-check',
+  '掃描 掃碼 QR掃描 辨識 QR碼掃描 | scan qrcode scan-eye',
+  '呼叫 撥號 打電話 發起通話 | phone-call phone-outgoing phone',
+  '移動 搬移 搬家 移轉 搬動 轉移 | arrows-move hand-move drag-drop',
+  '切換 互換 對調 交換 變更選項 | arrows-exchange switch toggle-right',
+  '切換模式 模式切換 換個模式 | switch-horizontal toggle-right adjustments',
+  '指派 分配工作 派工 派發工作 指定負責人 | user-plus user-check users-group clipboard-list',
+  '索取 申請取用 申請權限 請求存取 | lock-access key user-question',
+  '核准 審核通過 簽核 同意操作 | shield-check circle-check clipboard-check',
+  '退回 打回 退件 拒絕申請 | arrow-back-up arrow-left shield-x',
+  '發布 發佈 上架 公開內容 推出 | send share upload world-upload',
+  '收回 撤回 收起 撤銷發布 | arrow-back-up link-off trash',
+  '清除 清空 抹除 擦掉 刪乾淨 | eraser trash clear-all',
+  '附加 夾帶 附上附件 附加檔案 | paperclip file-plus file-upload',
+  '打包 壓縮 包裝 封裝 | archive file-zip package',
+  '解壓 解壓縮 解封 開箱 | archive-off folder-open package-export',
+  '複製網址 複製連結 取得分享連結 | link copy clipboard-copy',
+  '檢視 查看 看一下 瀏覽 預覽內容 | eye zoom-in file-search',
+  '遮住 蓋住 隱藏起來 遮蔽內容 | eye-off eye-closed lock',
+  '重啟 重新啟動 重新開機 重新執行 | refresh restart rotate-clockwise',
+  '放大畫面 放大縮放 放大圖形 | zoom-in maximize arrows-maximize',
+  '縮小畫面 縮小縮放 | zoom-out minimize arrows-minimize',
+  '分割 拆開 拆分 切分 | arrows-split layout-columns cut',
+  '合併 合起來 聚合 組合 | merge git-merge arrows-join',
+  // Statuses and common context
+  '已上鎖 鎖住狀態 鎖定狀態 | lock shield-lock',
+  '已解鎖 開鎖狀態 可自由取用 | lock-open lock-off shield-check',
+  '收訊不良 網路不穩 訊號不佳 | wifi-off signal-off antenna-bars-1',
+  '讀取中 載入中 等待載入 取用中 | loader progress hourglass',
+  '取用成功 讀取成功 下載完成 | circle-check file-download cloud-check',
+  '存取失敗 讀取失敗 無法讀檔 | alert-circle lock-exclamation file-alert',
+  '被拒絕 不被允許 禁止訪問 | shield-x lock-exclamation forbidden',
+  '離線 失去連線 沒網路 | wifi-off cloud-off network-off',
+  '多人存取 共用存取 共同使用 | users-group user-share share',
+  '更多 其他選項 其他功能 省略選單 三個點 | dots dots-vertical menu-2'
+];
+// Small, non-official convenience facets. Icons may belong to several groups.
+const USE_GROUPS = [
+  {id:'objects', label:'物件與生活', categories:['Animals','Food','Health','Sport','Vehicles','Electrical','Photography','Weather','Nature','Games','Laundry','Buildings'], stems:'pin thumbtack bell key lock shield settings search clock calendar filter flag home wallet camera battery gift book tool bulb heart star hand',},
+  {id:'actions', label:'操作與動作', categories:[], stems:'add plus minus x trash edit pencil copy cut clipboard upload download share send import export refresh reload reset restore swap switch toggle open close lock unlock pin pinned save erase hand-click scan check arrow arrows sort search filter select move rotate play pause stop',},
+  {id:'status', label:'狀態與提醒', categories:[], stems:'alert exclamation warning check info help error progress loader status bell notification circle-x circle-check clock-exclamation shield-x wifi-off signal-off forbidden hourglass',},
+  {id:'files', label:'文件與資料', categories:['Document','Database'], stems:'file files folder database clipboard notes notebook paperclip archive report table spreadsheet cloud-upload cloud-download',},
+  {id:'security',label:'安全與權限',categories:[],stems:'lock shield key password fingerprint eye-off user-off user-x forbidden ban access security certificate',},
+  {id:'signals',label:'通訊與訊號',categories:['Communication'],stems:'signal antenna wifi radio network router broadcast phone mail message messages volume waveform microphone',},
+  {id:'time', label:'日期與時間', categories:[],stems:'calendar clock hourglass alarm timeline history stopwatch time',},
+  {id:'markers',label:'位置與標記',categories:['Map'],stems:'pin pinned map-pin location flag bookmark target route compass navigation map gps',},
+  {id:'charts',label:'圖表與數據',categories:['Charts','Math'],stems:'chart graph trending progress analytics gauge dashboard database-stats percentage',},
+  {id:'interface',label:'介面與控制',categories:['Design','Text'],stems:'layout menu columns rows grid search filter sort chevron chevrons arrows settings adjustments pointer cursor zoom window',},
+  {id:'people',label:'人員與協作',categories:['Gender','Gestures'],stems:'user users group team hand message share',},
+  {id:'other',label:'其他／未歸類',categories:[],stems:''}
+];
+// zh terms | official English name/tags strongly associated with intention. Long phrases and synonyms are intentionally included.
+const SEMANTIC_ROWS = [
+  '新增 增加 新建 建立 添加 加入 加一筆 追加 | plus add new create insert playlist-add file-plus circle-plus square-plus',
+  '新增任務 建立任務 新增工作 增加任務 開立任務 | playlist-add subtask clipboard-plus list-plus circle-plus',
+  '子任務 子工作 子項目 階層任務 | subtask hierarchy tree indent list-tree',
+  '刪除 移除 丟掉 廢棄 垃圾桶 刪檔 | trash delete remove bin x erase',
+  '永久刪除 刪光 清除資料 清空資料 | trash-x trash-off clear delete-backspace erase',
+  '編輯 修改 修正 更改 更新資料 | edit pencil writing write replace',
+  '儲存 保存 存檔 寫入 留存 保存資料 儲存資料 | device-floppy device-sd-card cloud-check check save database',
+  '復原 撤銷 上一步 取消上一步 回復操作 | arrow-back-up undo restore history rotate',
+  '重做 再做一次 恢復剛剛的動作 | arrow-forward-up redo repeat rotate',
+  '取消 關閉 結束 視窗關閉 | x circle-x square-x close cancel',
+  '確認 同意 核准 勾選 打勾 OK 正確 | check circle-check square-check checks checkbox',
+  '完成 已完成 已結案 完工 成功 通過 驗收通過 | check circle-check clipboard-check progress-check shield-check rosette-discount-check',
+  '未完成 未結案 尚未完成 進行中 處理中 | progress progress-alert hourglass clock-loader loader',
+  '失敗 錯誤 異常 有問題 出錯 | alert-circle alert-triangle circle-x exclamation error bug',
+  '警告 警示 注意 風險 危險 | alert-triangle alert-circle alert-octagon exclamation shield-exclamation',
+  '重大風險 嚴重錯誤 阻擋 高風險 | alert-octagon alert-triangle shield-x circle-x',
+  '說明 提示 資訊 提醒使用者 幫助 | info-circle help-circle question-mark info-circle-filled',
+  '疑問 問號 幫助 求助 協助 常見問題 | help question-mark help-circle message-question',
+  '搜尋 查詢 找東西 找資料 尋找 搜尋圖示 | search list-search filter-search file-search database-search zoom',
+  '進階搜尋 條件查詢 多條件查詢 | list-search filter search adjustments-search',
+  '篩選 過濾 選取條件 過濾條件 | filter filter-off adjustments filter-search',
+  '排序 重新排序 排列 順序 大小順序 | sort sort-ascending sort-descending arrows-sort grip-vertical',
+  '升冪 由小到大 從少到多 | sort-ascending sort-ascending-letters sort-ascending-numbers',
+  '降冪 由大到小 從多到少 | sort-descending sort-descending-letters sort-descending-numbers',
+  '列印 印出 印表機 | printer file-type-pdf printer-off',
+  '上傳 傳上去 上傳檔案 傳檔 送出檔案 | upload file-upload cloud-upload arrow-up',
+  '下載 下傳 下載檔案 取得檔案 存到電腦 | download file-download cloud-download arrow-down',
+  '匯出 導出 輸出資料 匯出檔案 匯出報表 | file-export download file-download database-export table-export',
+  '匯入 導入 載入資料 匯入檔案 | file-import upload file-upload database-import table-import',
+  '分享 共用 分享連結 | share share-2 link external-link',
+  '轉寄 傳送 送出 傳遞 發送 | send mail-forward arrow-forward-up share',
+  '複製 複製一份 複本 複製貼上 | copy copies clipboard-copy copy-plus',
+  '剪下 剪取 剪貼 剪刀 | cut scissors clipboard',
+  '貼上 貼進去 剪貼簿 黏貼 | clipboard clipboard-copy clipboard-text',
+  '連結 超連結 網址 URL 參照 關聯 | link world-www external-link link-plus',
+  '解除連結 取消關聯 中斷連線 | link-off unlink plug-off',
+  '外部開啟 新視窗 外連 開啟網址 | external-link link world-www browser',
+  '釘選 固定 置頂 收藏在上面 | pin pinned pin-filled thumbtack',
+  '取消釘選 解除固定 | pinned-off pin-off pin',
+  '收藏 最愛 喜歡 我的最愛 書籤 | star heart bookmark star-filled bookmark-filled',
+  '標籤 註記 分類標籤 分類 | tag tags label bookmark category',
+  '旗標 標記 里程碑 錨點 | flag flag-check flag-3 target',
+  '拖曳 拖拉 握把 移動排序 | grip-vertical grip-horizontal drag-drop hand-move',
+  '上移 向上 提升 往上 置頂 上一步 | arrow-up arrows-up chevron-up chevrons-up',
+  '下移 向下 降低 往下 下一步 | arrow-down arrows-down chevron-down chevrons-down',
+  '左移 左邊 往左 上一頁 返回 | arrow-left chevron-left chevrons-left arrow-back',
+  '右移 右邊 往右 下一頁 前進 | arrow-right chevron-right chevrons-right arrow-forward',
+  '展開 攤開 顯示全部 展開全部 | chevrons-down chevron-down arrows-maximize layout-distribute-vertical',
+  '收合 摺疊 縮起 全部收合 隱藏部分 | chevrons-up chevron-up fold arrows-minimize',
+  '升層 減少縮排 提升階層 往外一層 | indent-decrease arrow-bar-left outdent',
+  '降層 增加縮排 子層級 往內一層 | indent-increase arrow-bar-right indent',
+  '更新 重新整理 重整 刷新 重載 | refresh reload rotate-clockwise arrows-clockwise',
+  '同步 資料同步 雲端同步 雙向同步 | refresh sync cloud-check arrows-exchange arrows-cross',
+  '還原 恢復 還原預設 回復預設 重設 | restore refresh history rotate-2',
+  '設定 選項 參數 配置 系統設定 | settings settings-2 adjustments tool',
+  '調整 客製 調整選項 自訂 客製化 | adjustments sliders settings palette',
+  '顏色 色彩 配色 調色盤 主題 | palette color-swatch paint brush color-picker',
+  '深色 暗色 夜間 夜間模式 | moon moon-stars brightness-down',
+  '淺色 亮色 白天 日間模式 | sun brightness-up sunny',
+  '版面 排版 版型 布局 佈局 介面 | layout columns rows grid',
+  '欄位 表格欄位 欄位設定 | columns columns-3 layout-columns table-column',
+  '表格 試算表 資料表 | table table-row table-column table-options',
+  '清單 列表 任務列表 多個項目 | list list-details clipboard-list checklist',
+  '檢查清單 待辦清單 勾選項目 | list-check checklist clipboard-check list-details',
+  '筆記 備忘錄 註解 備註 | notes note notebook message-2',
+  '文件 文書 檔案 報表 | file files file-text file-report document',
+  '資料夾 目錄 分類資料夾 | folder folders folder-open',
+  '開啟資料夾 瀏覽檔案 | folder-open folders file-search',
+  '附件 附加檔案 附件上傳 | paperclip file-plus link file-upload',
+  'PDF 文件 pdf檔 | file-type-pdf file-pdf pdf',
+  'Excel 試算表 excel檔 | file-type-xls file-type-xlsx table spreadsheet',
+  'CSV csv檔 逗號分隔檔 | file-type-csv table file-export',
+  'JSON json檔 資料格式 | file-type-json code-braces file-code',
+  '壓縮檔 ZIP 打包 解壓縮 | file-zip archive zip file-type-zip',
+  '備份 備份檔案 資料備份 | database-export cloud-upload files-backup archive',
+  '封存 歸檔 保存紀錄 | archive archive-off file-zip inbox',
+  '歷史紀錄 變更歷程 操作紀錄 活動紀錄 | history clock-hour-4 timeline activity',
+  '時間 時鐘 時間點 | clock clock-hour-4 time alarm',
+  '日期 日曆 行事曆 日期選擇 | calendar calendar-time calendar-event calendar-month',
+  '今天 今日 當天 | calendar calendar-today calendar-event',
+  '本週 週次 一週 星期 | calendar-week calendar-stats calendar',
+  '月份 一個月 月曆 | calendar-month calendar calendar-stats',
+  '截止日 到期日 限期 最後期限 deadline | calendar-due calendar-event clock-exclamation alarm',
+  '逾期 延期 延遲 落後 超時 工作延期 專案延期 | calendar-exclamation clock-exclamation alarm-exclamation clock-pause hourglass',
+  '預定 排程 安排 計畫 規劃 排程設定 | calendar-cog calendar-time timeline calendar-schedule',
+  '提醒 鬧鐘 到時間 記得 通知提醒 | bell bell-ringing alarm alarm-plus calendar-event',
+  '通知 訊息通知 推播 通報 | bell bell-ringing notification message-circle',
+  '靜音 不提醒 關閉通知 | bell-off volume-off notification-off',
+  '等待 稍後 排隊 待辦 等候 | hourglass clock-pause loader clock',
+  '暫停 中止 暫時停止 | player-pause pause clock-pause hand-stop',
+  '停止 停用 終止 關機 | player-stop stop circle-x power',
+  '開始 啟動 執行 啟用 | player-play player-track-next power player-play-filled',
+  '進度 執行進度 完成率 狀態追蹤 | progress progress-check chart-line timeline activity',
+  '任務 工作項目 作業 待辦事項 | clipboard-list checklist subtask list-details',
+  '專案 專案管理 計畫管理 | briefcase folder project timeline layout-kanban',
+  '里程碑 階段節點 重要節點 | flag target diamond milestone timeline',
+  '甘特圖 Gantt 專案排程 工期 | timeline calendar-stats chart-bar chart-timeline',
+  '資源分配 負載分析 工作量 人力配置 | users-group chart-bar user-cog calendar-week',
+  '負責人 指派人員 人員 責任歸屬 | user-check users-group user-plus user-cog',
+  '報表 報告 分析報告 | report-analytics file-report chart-bar report',
+  '統計 數據 數量 計數 計量 | chart-bar chart-dots chart-pie table',
+  '圖表 分析 趨勢視覺化 | chart-line chart-area chart-bar chart-pie',
+  '折線圖 趨勢 成長曲線 | chart-line chart-dots chart-area',
+  '圓餅圖 占比 比重 | chart-pie chart-donut percentage',
+  '長條圖 柱狀圖 分布 | chart-bar chart-bar-popular chart-histogram',
+  '儀表板 Dashboard 總覽 一覽 | layout-dashboard dashboard gauge chart-bar',
+  '目標 指標 KPI 績效 追蹤目標 | target flag chart-bar gauge',
+  '成長 增長 提升 上升 趨勢向上 | trending-up chart-line arrow-up graph',
+  '下降 減少 衰退 下跌 趨勢向下 | trending-down chart-line arrow-down',
+  '使用者 帳號 會員 個人 個人資料 | user user-circle user-square id',
+  '多使用者 團隊 群組 一群人 眾人 | users users-group user-share',
+  '新增人員 新增會員 新增使用者 | user-plus users-plus',
+  '移除使用者 刪除會員 | user-minus user-x user-off',
+  '停用帳號 停權 封鎖用戶 | user-off user-x lock',
+  '權限 存取權限 訪問權限 認證 許可 | lock shield-lock key user-shield shield-check',
+  '權限不足 沒有權限 無法存取 禁止存取 拒絕存取 | lock-exclamation shield-x user-off lock-access forbidden ban',
+  '授權 核准 權限通過 已驗證 | shield-check lock-check user-check certificate',
+  '登入 登入系統 登錄 | login door-enter user-circle',
+  '登出 離開系統 登出帳號 | logout door-exit',
+  '解鎖 解除鎖定 開鎖 | lock-open unlock lock-off',
+  '鎖定 上鎖 加鎖 | lock lock-square key',
+  '密碼 密碼保護 驗證碼 | password key lock fingerprint',
+  '金鑰 API Key Token 憑證 | key key-off password shield-lock',
+  '安全 資安 安全性 防護 保護 | shield shield-check lock security',
+  '資安風險 安全警示 弱點 漏洞 | shield-exclamation shield-x alert-triangle bug',
+  '機敏資料 隱私 保密 個資 | eye-off lock shield-lock user-shield',
+  '可見 顯示 看見 預覽 檢視 | eye eye-check zoom-in',
+  '隱藏 遮蔽 不顯示 保密 | eye-off eye-closed lock',
+  '文件保護 資料加密 | file-lock lock shield-lock',
+  '人臉辨識 生物辨識 指紋 | face-id fingerprint scan-face',
+  '郵件 電子郵件 Email 信箱 收信 | mail inbox mail-opened',
+  '寄信 發送郵件 寫信 | mail-forward mail-plus send',
+  '聊天 對話 即時通訊 諮詢 | message-circle messages chat',
+  '留言 評論 回覆 討論 | message-circle message-2 message-reply',
+  '電話 通話 打電話 手機來電 | phone phone-call phone-incoming',
+  '視訊 影片會議 影像通話 | video device-camera-video camera',
+  '媒體 影音 音樂 播放器 | music player-play video headphones',
+  '播放 影片開始 | player-play player-skip-forward',
+  '音量 聲音 喇叭 音效 | volume volume-2 speaker',
+  '相機 拍照 攝影 | camera camera-plus photo',
+  '圖片 相片 影像 圖檔 | photo image picture photos',
+  '地點 地址 定位 位置 | map-pin map-pin-filled location pin',
+  '導航 路線 路徑 方向 | compass map route navigation',
+  '地圖 世界 全球 國際 | map world globe',
+  '交通 行車 車輛 車子 汽車 | car bus truck vehicle',
+  '飛機 航班 航空 機場 | plane plane-tilt',
+  '火車 捷運 鐵路 | train train-2',
+  '建築 大樓 公司 辦公室 | building buildings building-community',
+  '醫療 醫院 醫生 診所 | first-aid-kit stethoscope building-hospital',
+  '健康 健身 醫療 | heart-rate health-recognition activity heartbeat',
+  '飲食 食物 餐廳 餐點 | tools-kitchen burger cup-food chef-hat',
+  '購物 商店 購物車 商品 | shopping-cart shopping-bag basket package',
+  '金錢 付款 付費 收費 費用 | cash coin wallet credit-card currency-dollar',
+  '信用卡 卡片刷卡 金流 支付 | credit-card card cash wallet',
+  '發票 帳單 收據 | receipt invoice file-invoice',
+  '預算 成本 費用估算 | currency-dollar calculator chart-bar wallet',
+  '資料庫 DB SQL 儲存系統 | database database-cog database-search server',
+  '伺服器 伺服器主機 後端 | server server-bolt database',
+  '雲端 cloud 雲端服務 | cloud cloud-check cloud-computing',
+  '網路 連線 網際網路 網站 | world-www wifi network browser',
+  '斷線 離線 無網路 連線失敗 | wifi-off cloud-off plug-off',
+  '電腦 筆電 桌面 桌機 | device-desktop device-laptop device-imac',
+  '手機 行動裝置 智慧型手機 | device-mobile device-mobile-message smartphone',
+  '平板 裝置 | device-tablet devices',
+  '程式 開發 編碼 軟體開發 | code code-dots terminal-code brackets',
+  'API 接口 介面 串接 整合 | api plug connected-code arrows-exchange',
+  'Git 版本控制 分支 | git-branch git-merge git-pull-request',
+  '合併 分支合併 Merge 整合 | git-merge merge arrows-join',
+  'Bug 缺陷 程式錯誤 測試失敗 | bug bug-off alert-circle',
+  '測試 品質驗證 QA 檢核 | test-pipe clipboard-check checklist shield-check',
+  '自動化 機器操作 流程自動化 | robot automation settings-cog bolt',
+  '人工智慧 AI 智慧機器 學習模型 LLM | brain robot sparkles ai brain-circuit',
+  '機器人 bot 智能助理 | robot robot-face messages',
+  '創意 靈感 魔法 智慧推薦 | bulb sparkles wand star',
+  '流程 工作流程 分支流程 | workflow arrows-split hierarchy flowchart',
+  '節點 樹狀 結構 階層 | hierarchy hierarchy-2 binary-tree tree',
+  '重試 重新執行 再試一次 | refresh reload repeat arrows-clockwise',
+  '清理 清除 擦除 重置設定 | eraser trash refresh',
+  '匯率 貨幣 台幣 美元 匯兌 | currency-dollar currency-exchange coin wallet',
+  '投資 股票 股市 K線 交易 | chart-candle chart-line trending-up cash',
+  '天氣 晴天 下雨 陰天 颱風 | sun cloud-rain cloud weather',
+  '微笑 開心 心情 情緒 | mood-smile mood-happy smile',
+  '難過 哀傷 哭泣 | mood-sad mood-cry heart-broken',
+  '遊戲 電玩 搖桿 手把 | device-gamepad gamepad-2 gamepad',
+  '體育 運動 球類 | ball-football ball-basketball bike run',
+  '動物 寵物 狗貓 | cat dog paw',
+  '自然 樹木 花草 植物 | tree leaf flower plant',
+  '搜尋放大鏡 放大 縮放 放大檢視 | zoom-in search focus',
+  '縮小 縮放縮小 | zoom-out minus',
+  '旋轉 調轉 轉向 | rotate rotate-clockwise arrows-rotate',
+  '電池 電源 充電 | battery battery-charging bolt plug',
+  '太陽 白天 日光 | sun sun-high',
+  '月亮 晚上 夜間 | moon moon-stars'
+];
+// Non-official, common-word Chinese translations, keyed by WHOLE English name tokens.
+// A translated word is indexed only when it occurs as a complete hyphen-delimited
+// icon-name token or complete official tag word; no substring guesses (lock != clock).
+const DIRECT_WORD_ROWS = String.raw`
+apple|蘋果,蘋果水果
+banana|香蕉,芭蕉
+avocado|酪梨,牛油果
+cherry|櫻桃
+carambola|楊桃
+lemon|檸檬
+grape|葡萄,葡萄串
+melon|甜瓜,哈密瓜
+watermelon|西瓜
+mango|芒果
+peach|水蜜桃,桃子
+pear|梨子
+pineapple|鳳梨,菠蘿
+strawberry|草莓
+orange|橘子,柳橙,橘色
+coconut|椰子
+kiwi|奇異果
+carrot|紅蘿蔔,胡蘿蔔
+pepper|辣椒,胡椒
+potato|馬鈴薯,洋芋
+tomato|番茄
+corn|玉米
+onion|洋蔥
+garlic|大蒜
+wheat|小麥,麥子
+grain|穀物,穀粒
+seedling|幼苗,新芽
+meat|肉,肉類
+fish|魚,魚類
+salad|沙拉
+pizza|披薩
+burger|漢堡
+sandwich|三明治
+bread|麵包
+baguette|法國麵包
+cake|蛋糕
+cookie|餅乾
+chocolate|巧克力
+candy|糖果
+lollipop|棒棒糖
+icecream|冰淇淋
+cheese|起司,乳酪
+milk|牛奶
+milkshake|奶昔
+coffee|咖啡
+tea|茶
+teapot|茶壺
+cup|杯子
+mug|馬克杯
+bottle|瓶子
+bowl|碗
+soup|湯
+sausage|香腸
+salt|鹽
+egg|雞蛋,蛋
+eggs|雞蛋
+pie|派,餡餅
+dumpling|水餃,餃子
+beer|啤酒
+wine|葡萄酒
+cocktail|調酒
+water|水
+ice|冰
+fork|叉子
+spoon|湯匙,勺子
+knife|刀子
+cooker|炊具,爐具
+microwave|微波爐
+fridge|冰箱
+grill|烤架,燒烤
+cat|貓咪,貓
+dog|狗,狗狗
+bird|鳥,小鳥
+bat|蝙蝠
+bear|熊
+tiger|老虎
+lion|獅子
+horse|馬
+cow|乳牛,牛
+pig|豬,小豬
+sheep|綿羊
+rabbit|兔子
+fox|狐狸
+wolf|狼
+monkey|猴子
+deer|鹿
+elephant|大象
+panda|熊貓
+giraffe|長頸鹿
+snake|蛇
+frog|青蛙
+whale|鯨魚
+dolphin|海豚
+shark|鯊魚
+turtle|烏龜
+duck|鴨子
+chicken|雞
+owl|貓頭鷹
+bee|蜜蜂
+butterfly|蝴蝶
+spider|蜘蛛
+ant|螞蟻
+bug|昆蟲,程式錯誤
+worm|蟲子
+snail|蝸牛
+crab|螃蟹
+shrimp|蝦子
+lobster|龍蝦
+paw|爪印,腳掌
+bone|骨頭
+dna|DNA,去氧核糖核酸
+virus|病毒
+flower|花朵,花
+rose|玫瑰
+leaf|葉子,樹葉
+tree|樹木,樹
+plant|植物
+branch|樹枝,分支
+forest|森林
+mushroom|蘑菇,香菇
+cactus|仙人掌
+clover|幸運草,酢漿草
+acorn|橡實
+wood|木頭,木材
+mountain|山,山脈
+hill|山丘
+beach|海灘,沙灘
+island|島嶼
+river|河流
+ocean|海洋
+sea|大海
+wave|波浪
+waveform|波形
+wind|風
+windmill|風車
+cloud|雲朵,雲,雲端
+rain|雨,下雨
+rainbow|彩虹
+snow|雪,下雪
+snowflake|雪花
+snowman|雪人
+storm|風暴,暴風雨
+thunder|雷聲
+lightning|閃電
+bolt|閃電
+sun|太陽
+sunrise|日出
+sunset|日落
+moon|月亮
+star|星星,星號
+comet|彗星
+meteor|流星
+galaxy|銀河,星系
+planet|行星
+universe|宇宙
+world|世界
+hemisphere|半球
+globe|地球儀,地球
+volcano|火山
+flame|火焰
+fire|火
+smoke|煙霧
+flood|洪水
+droplet|水滴,液滴
+droplets|水滴
+iceberg|冰山
+mist|薄霧
+haze|霧霾
+home|家,首頁
+house|房屋,房子
+building|建築物,大樓
+buildings|建築物,大樓
+school|學校
+hospital|醫院
+mosque|清真寺
+church|教堂
+bank|銀行
+factory|工廠
+warehouse|倉庫
+office|辦公室
+store|商店
+shop|商店,購物
+shopping|購物
+cart|購物車
+basket|籃子,購物籃
+bag|袋子,包包
+backpack|背包
+luggage|行李,旅行箱
+wallet|錢包
+moneybag|錢袋
+cash|現金
+coin|硬幣
+coins|硬幣
+banknote|鈔票,紙鈔
+credit|信用,信用卡
+card|卡片
+cards|卡片
+receipt|收據
+invoice|發票
+discount|折扣
+ticket|票券,門票
+coupon|優惠券
+gift|禮物
+balloon|氣球
+candle|蠟燭
+lamp|檯燈,燈
+bulb|燈泡
+lighter|打火機
+key|鑰匙,金鑰
+lock|鎖頭,鎖住
+unlock|解鎖
+password|密碼
+shield|盾牌,保護
+fence|圍籬,柵欄
+door|門
+window|窗戶,視窗
+wall|牆壁
+stairs|樓梯
+elevator|電梯
+escalator|手扶梯
+bed|床
+sofa|沙發
+armchair|扶手椅
+chair|椅子
+desk|書桌,辦公桌
+table|桌子,表格
+rug|地毯
+pillow|枕頭
+bath|浴缸,泡澡
+shower|淋浴
+soap|肥皂
+broom|掃帚
+brush|刷子
+bucket|水桶
+spray|噴霧,噴灑
+wash|洗滌,清洗
+iron|熨斗
+ironing|熨燙
+hanger|衣架
+shirt|襯衫,上衣
+shoe|鞋子
+sock|襪子
+jacket|外套
+hat|帽子
+cap|帽子,鴨舌帽
+glasses|眼鏡
+eyeglass|眼鏡
+sunglasses|太陽眼鏡
+umbrella|雨傘
+tie|領帶
+crown|皇冠
+ring|戒指,圓環
+rings|戒指,環
+perfume|香水
+razor|刮鬍刀
+mirror|鏡子
+scissors|剪刀
+needle|針,縫衣針
+hammer|鐵鎚,槌子
+axe|斧頭
+shovel|鏟子
+ladder|梯子
+ruler|尺,直尺
+compass|指南針,圓規
+magnet|磁鐵
+anchor|船錨
+basketball|籃球
+car|汽車
+bus|公車,巴士
+truck|卡車
+train|火車
+tram|電車
+subway|地鐵,捷運
+motorbike|機車,摩托車
+moped|輕型機車
+scooter|滑板車,機車
+bike|自行車,腳踏車
+bicycle|自行車
+plane|飛機
+helicopter|直升機
+rocket|火箭
+drone|無人機
+ship|船舶,船
+boat|船,小船
+sailboat|帆船
+speedboat|快艇
+submarine|潛水艇
+ferry|渡輪
+tractor|拖拉機,牽引車
+bulldozer|推土機
+backhoe|挖土機
+crane|起重機
+forklift|堆高機
+ambulance|救護車
+firetruck|消防車
+parachute|降落傘
+jetpack|噴射背包
+road|道路,馬路
+route|路線
+map|地圖
+pin|圖釘,釘選
+pinned|已釘選
+location|地點,位置
+navigation|導航
+north|北
+south|南
+east|東
+west|西
+parking|停車場,停車
+traffic|交通
+sign|標誌,路標
+flag|旗子,旗幟
+bookmark|書籤
+marker|標記,記號
+target|目標,靶心
+radar|雷達
+satellite|衛星
+tower|塔
+computer|電腦
+laptop|筆電,筆記型電腦
+desktop|桌上型電腦,桌面
+monitor|顯示器,螢幕
+screen|螢幕
+mouse|滑鼠,老鼠
+keyboard|鍵盤
+tablet|平板,平板電腦
+phone|電話,手機
+mobile|手機,行動裝置
+smartphone|智慧型手機
+iphone|蘋果手機,iPhone
+ipad|蘋果平板,iPad
+imac|蘋果桌上型電腦,iMac
+device|裝置
+server|伺服器
+router|路由器
+modem|數據機
+network|網路
+wifi|無線網路,Wi-Fi
+bluetooth|藍牙
+signal|訊號,信號
+antenna|天線
+radio|收音機,無線電
+broadcast|廣播,播送
+podcast|播客
+usb|USB,隨身碟
+plug|插頭
+outlet|插座
+battery|電池
+recharging|充電中
+charging|充電
+power|電源,開關,電源開關
+cpu|中央處理器,CPU
+gpu|顯示卡,GPU
+memory|記憶體,記憶
+chip|晶片
+circuit|電路
+api|API,應用程式介面
+code|程式碼
+script|腳本,程式碼
+terminal|終端機
+console|主控台
+browser|瀏覽器
+apps|應用程式,App
+app|應用程式
+webhook|Webhook,網頁鉤子
+database|資料庫
+data|資料
+file|檔案,文件
+files|檔案,文件
+folder|資料夾
+folders|資料夾
+document|文件
+documents|文件
+clipboard|剪貼簿
+paperclip|迴紋針,附件
+attachment|附件
+archive|封存,壓縮檔
+package|套件,包裹
+zip|壓縮檔,壓縮
+pdf|PDF文件
+csv|CSV檔案
+json|JSON檔案
+xml|XML檔案
+html|HTML檔案
+image|圖片,影像
+photo|照片,相片
+picture|圖片
+camera|相機
+video|影片
+movie|電影
+microphone|麥克風
+headphones|耳機
+headset|耳麥
+speaker|喇叭,揚聲器
+speakerphone|擴音器
+volume|音量
+music|音樂
+piano|鋼琴
+vinyl|黑膠唱片
+record|錄製,紀錄
+album|相簿,專輯
+printer|印表機,列印
+print|列印
+screenshot|螢幕截圖
+scan|掃描
+scanner|掃描器
+barcode|條碼
+qrcode|QR碼,二維碼
+add|新增,加入
+plus|加號,新增
+minus|減號,減少
+remove|移除
+delete|刪除
+trash|垃圾桶,刪除
+clear|清除
+edit|編輯
+pencil|鉛筆,編輯
+pen|筆
+ballpen|原子筆
+eraser|橡皮擦
+save|儲存
+copy|複製
+paste|貼上
+cut|剪下
+undo|復原
+redo|重做
+restore|還原
+reset|重設
+refresh|重新整理,刷新
+reload|重新載入
+retry|重試
+open|開啟
+close|關閉
+closed|已關閉
+expand|展開
+collapse|收合
+lockdown|封鎖
+access|存取,取用
+permissions|權限
+permission|權限
+upload|上傳
+download|下載,取回
+import|匯入
+export|匯出
+send|傳送
+receive|接收
+share|分享
+link|連結
+unlink|解除連結
+search|搜尋,放大鏡
+find|尋找
+filter|篩選,漏斗
+sort|排序
+select|選取
+deselect|取消選取
+check|勾選,確認
+checks|多個勾選
+cancel|取消
+ban|禁止
+forbid|禁止,封鎖
+block|封鎖
+blocked|已封鎖
+warning|警告
+alert|警示
+error|錯誤
+info|資訊
+help|說明,協助
+question|問號,疑問
+exclamation|驚嘆號
+urgent|緊急
+success|成功
+failed|失敗
+approved|已核准
+verified|已驗證
+notification|通知
+bell|鈴鐺,通知
+clock|時鐘
+calendar|日曆
+watch|手錶
+stopwatch|碼錶,計時器
+hourglass|沙漏
+timer|計時器
+history|歷史
+future|未來
+schedule|排程
+pipeline|流程,管線
+workflow|工作流程
+project|專案
+task|任務
+subtask|子任務
+report|報告
+chart|圖表
+graph|曲線圖,圖形
+dashboard|儀表板
+analytics|分析
+analysis|分析
+statistics|統計
+gauge|儀表,測量錶
+progress|進度
+percentage|百分比
+percent|百分比
+list|清單
+grid|格線,網格
+layout|版面,布局
+column|欄
+columns|欄位
+row|列
+rows|列
+menu|選單
+dots|三個點,更多選項
+pointer|游標,指標
+cursor|游標
+click|點擊
+hand|手掌,手
+finger|手指
+swipe|滑動
+drag|拖曳
+drop|放下
+move|移動
+rotate|旋轉
+transform|變換
+resize|調整大小
+zoom|縮放
+maximize|最大化
+minimize|最小化
+split|分割
+merge|合併
+replace|取代
+exchange|交換
+switch|切換
+toggle|開關,切換
+play|播放
+pause|暫停
+stop|停止
+rewind|倒轉
+forward|前進
+back|返回
+backward|後退
+up|向上,上
+down|向下,下
+left|左,向左
+right|右,向右
+top|頂部,上方
+bottom|底部,下方
+vertical|垂直
+horizontal|水平
+center|置中,中央
+align|對齊
+arrow|箭頭
+arrows|箭頭
+chevron|折角箭頭
+caret|三角箭頭
+circle|圓形,圓圈
+square|正方形,方形
+rectangle|長方形,矩形
+triangle|三角形
+pentagon|五邊形
+hexagon|六邊形
+octagon|八邊形
+polygon|多邊形
+cube|立方體
+sphere|球體,球形
+diamond|菱形,鑽石
+oval|橢圓形
+line|線條
+point|點
+angle|角度
+arc|圓弧
+spiral|螺旋
+cross|十字,叉號
+x|叉號,關閉
+hash|井字號
+asterisk|星號
+brackets|方括號
+braces|大括號
+parentheses|小括號
+slash|斜線
+underline|底線
+bold|粗體
+italic|斜體
+strikethrough|刪除線
+text|文字
+type|類型,文字輸入
+typography|字體排印
+font|字體
+letter|字母,信件
+number|數字
+math|數學
+sum|總和
+infinity|無限
+omega|歐米茄
+alpha|阿爾法
+beta|貝塔
+pi|圓周率
+equal|等於
+divide|除號,除法
+user|使用者
+users|使用者群組
+person|人物,人
+people|人群
+group|群組
+team|團隊
+friends|朋友
+man|男性,男人
+woman|女性,女人
+baby|嬰兒
+child|孩童
+family|家庭
+face|臉,臉部
+mood|心情,表情
+smile|微笑
+sad|難過
+angry|生氣
+head|頭部
+eye|眼睛
+ear|耳朵
+nose|鼻子
+mouth|嘴巴
+teeth|牙齒
+brain|大腦
+heart|愛心,心臟
+heartbeat|心跳
+lungs|肺臟
+fingerprint|指紋
+mask|口罩,面具
+pill|藥丸
+pills|藥丸
+prescription|處方箋
+vaccine|疫苗
+nurse|護理師,護士
+doctor|醫師,醫生
+stethoscope|聽診器
+bandage|繃帶
+wheelchair|輪椅
+physiotherapist|物理治療師
+health|健康
+sport|運動
+run|跑步
+walk|走路,步行
+yoga|瑜伽
+swimming|游泳
+golf|高爾夫球
+football|足球
+baseball|棒球
+tennis|網球
+volleyball|排球
+bowling|保齡球
+rugby|橄欖球
+skateboard|滑板
+ski|滑雪
+snowboarding|滑雪板
+karate|空手道
+barbell|槓鈴
+dumbbell|啞鈴
+weight|重量,重訓
+exercise|運動,鍛鍊
+chess|西洋棋
+puzzle|拼圖
+dice|骰子
+joker|小丑,鬼牌
+game|遊戲
+games|遊戲
+red|紅色
+blue|藍色
+green|綠色
+yellow|黃色
+purple|紫色
+pink|粉紅色
+black|黑色
+white|白色
+grey|灰色
+gray|灰色
+brown|棕色
+silver|銀色
+gold|金色
+shadow|陰影
+light|燈光,光亮
+dark|深色
+brightness|亮度
+opacity|透明度,不透明度
+contrast|對比度
+blur|模糊
+focus|聚焦
+google|Google,谷歌
+microsoft|Microsoft,微軟
+android|Android,安卓
+windows|Windows,微軟視窗系統
+github|GitHub,程式碼託管平台
+facebook|Facebook,臉書
+instagram|Instagram,IG
+whatsapp|WhatsApp
+telegram|Telegram,電報
+spotify|Spotify
+netflix|Netflix,網飛
+youtube|YouTube,油管
+amazon|Amazon,亞馬遜
+chrome|Chrome,谷歌瀏覽器
+firefox|Firefox,火狐瀏覽器
+edge|Edge,微軟瀏覽器
+safari|Safari,蘋果瀏覽器
+tiktok|TikTok,抖音國際版
+steam|Steam
+`.trim().split('\n');
+const DIRECT_TRANSLATIONS = Object.create(null);
+for(const row of DIRECT_WORD_ROWS){
+  const sep=row.indexOf('|');if(sep<=0)continue;
+  const key=row.slice(0,sep).trim();
+  const names=row.slice(sep+1).split(',').map(x=>x.trim()).filter(Boolean);
+  DIRECT_TRANSLATIONS[key]=names;
+  if(names.length && !(key in TOKEN_ZH))TOKEN_ZH[key]=names[0];
+}
+// More precise labels for different meanings of "apple".
+Object.assign(EXACT_ZH, {
+  'apple':'蘋果（水果）',
+  'brand-apple':'蘋果品牌／Apple',
+  'banana':'香蕉',
+  'cherry':'櫻桃',
+  'flower':'花朵',
+  'brand-google':'Google／谷歌',
+  'brand-microsoft':'Microsoft／微軟'
+});
+Object.assign(EXTRA_ALIASES,{
+  'apple':['蘋果','蘋果水果','水果蘋果'],
+  'brand-apple':['蘋果','蘋果公司','蘋果品牌','Apple Logo','蘋果商標'],
+  'banana':['香蕉','芭蕉'],
+  'cherry':['櫻桃'],
+  'flower':['花朵','花','花卉']
+});
+const DIRECT_SEMANTIC = Object.entries(DIRECT_TRANSLATIONS).map(([word,terms])=>({
+  terms:terms.filter(t=>t.length>=2), english:[word]
+}));
+
+const SEMANTIC_VOCAB = [...SEMANTIC_ROWS,...SEMANTIC_EXTRA_ROWS];
+const SEMANTIC = SEMANTIC_VOCAB.map((row, i)=>{const parts=row.split('|');return {id:i, terms:parts[0].trim().toLowerCase().split(/\s+/), english:parts[1].trim().toLowerCase().split(/\s+/)};});
+const STOPWORDS = new Set(['我想找','請幫我','幫我找','請找','想找','請問','icon','icons','svg','圖示','圖標','符號','一個','這個','那個','幫我','想要','需要','我要','可以','用來','代表','表示','適合','使用','找','我想','我','的','一種','能夠','功能','圖案']);
+const els = Object.fromEntries(['search','style','category','useGroup','matchMode','wordRule','sort','pageSize','grid','notice','totalCount','totalDetail','resultTitle','resultMeta','pager','pageLabel','jumpPage','empty','emptyTitle','emptyText','favCount','favFilter','favTop','exportFav','detail','detailName','detailZh','detailCat','detailType','detailTags','detailGroups','detailAliases','detailAliasesLabel','detailComponent','detailImg','officialLink','svgLink','detailFavorite','toast'].map(k=>[k,document.getElementById(k)]));
+let records=[], results=[], page=1, selected=null, favorites=new Set(), onlyFavorites=false, dataReady=false, noticeTimer;
+try{favorites=new Set(JSON.parse(localStorage.getItem('icon-atlas-tabler-v3.50-favs')||'[]'));}catch(_e){favorites=new Set()}
+const $=id=>document.getElementById(id);
+const safe = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[_–—.,!?？！，。/\\:；;]+/g,' ').trim();
+const compact=s=>norm(s).replace(/\s+/g,'');
+const svgUrl=r=>`${OFFICIAL_BASE}/icons/${r.style}/${r.name}.svg`;
+const favKey=r=>`${r.name}:${r.style}`;
+const iconComponent=r=>'Icon'+r.name.split('-').map(s=>s.charAt(0).toUpperCase()+s.slice(1)).join('')+(r.style==='filled'?'Filled':'');
+const textLabel=r=>EXACT_ZH[r.name]||r.name.split('-').map(k=>TOKEN_ZH[k]||k).join(' · ');
+const hasIconStem=(name,stem)=>!!stem&&(name===stem||name.startsWith(stem+'-')||name.endsWith('-'+stem)||name.includes('-'+stem+'-'));
+for(const group of USE_GROUPS){group.stemParts=group.stems.split(/\s+/).filter(Boolean);}
+function getUseGroups(r){const groups=USE_GROUPS.filter(g=>g.id!=='other'&&(g.categories.includes(r.category)||g.stemParts.some(stem=>hasIconStem(r.name,stem)))).map(g=>g.id);return groups.length?groups:['other'];}
+function getAliases(r){
+  const explicit=EXTRA_ALIASES[r.name]||[];
+  const fallback=explicit.length?[]:(Object.entries(EXTRA_ALIASES).find(([stem])=>hasIconStem(r.name,stem)&&stem.length>=4)?.[1]||[]).slice(0,3);
+  const direct=r.name.split('-').flatMap(part=>(DIRECT_TRANSLATIONS[part]||[]).slice(1));
+  return [...new Set([...explicit,...fallback,...direct])].slice(0,9);
+}
+function scoreWord(n, tags, cat, e){
+  if(!e || e.length<2) return 0;
+  if(n===e) return 190;
+  if(n.startsWith(e+'-')||n.endsWith('-'+e))return 135;
+  const segments=n.split('-');
+  if(segments.includes(e))return 115;
+  // Match at word boundaries, not inside other words: 'lock' must NOT match 'clock'.
+  if(e.length>=4 && segments.some(t=>t.startsWith(e)))return 45;
+  if(tags.some(t=>t===e))return 84;
+  if(tags.some(t=>t.split(/[\s_-]+/).includes(e)))return 51;
+  if(e.length>=4 && tags.some(t=>t.split(/[\s_-]+/).some(w=>w.startsWith(e))))return 24;
+  const catWords=cat.split(/[\s_-]+/);
+  if(catWords.includes(e))return 50;
+  if(e.length>=4 && catWords.some(w=>w.startsWith(e)))return 18;
+  return 0;
+}
+// Prefer the longest expression when a query contains overlapping concepts,
+// e.g. 「取用權限」 should not simultaneously be treated as generic 「取用」.
+function activeConcepts(q){
+  const normalized=compact(q);if(!normalized)return [];
+  const candidates=[];
+  for(const c of [...SEMANTIC,...DIRECT_SEMANTIC]){let best=null;for(const term of c.terms){const t=compact(term);if(t.length<2)continue;const pos=normalized.indexOf(t);if(pos<0)continue;if(!best||t.length>best.end-best.start)best={start:pos,end:pos+t.length,term};}
+    if(best)candidates.push({...c,match:best.term,...best});}
+  candidates.sort((a,b)=>(b.end-b.start)-(a.end-a.start)||a.start-b.start);
+  const selected=[];
+  for(const item of candidates){if(selected.some(x=>item.start<x.end&&item.end>x.start))continue;selected.push(item);}
+  return selected;
+}
+function planPart(term,mode){
+  const raw=norm(term);
+  return {raw, queryClean:compact(term),latinTokens:raw.match(/[a-z][a-z0-9-]*/g)||[], concepts:mode==='smart'?activeConcepts(term):[]};
+}
+function smartScore(r,p){
+  let score=0,coverage=0;
+  const name=r.name,tags=r.tagsLower,category=r.categoryLower,raw=p.raw,queryClean=p.queryClean;
+  if(!raw)return 1;
+  if(name===raw||name===queryClean)return 2000;
+  if(name.startsWith(raw)||name.startsWith(queryClean))score+=350;
+  const segments=name.split('-');
+  if(segments.includes(raw)||segments.includes(queryClean))score+=180;
+  if(raw.includes('-') && name.includes(raw))score+=110;
+  // Direct everyday Chinese word translations rank above looser intent matches.
+  if(r.zhNorm===queryClean)return 2200;
+  if(r.aliasesNorm.some(a=>a===queryClean))score+=660;
+  if(r.directNameExact.has(queryClean))score+=480;
+  if(r.directTagExact.has(queryClean))score+=85;
+  if(queryClean.length>=2 && r.zhNorm.includes(queryClean))score+=200;
+  if(queryClean.length>=2 && r.aliasesNorm.some(a=>a.includes(queryClean)))score+=135;
+  if(r.tagsLower.some(t=>t===raw||t===queryClean))score+=80;
+  if(r.categoryZh.includes(queryClean))score+=40;
+  for(const w of p.latinTokens){if(STOPWORDS.has(w))continue;score+=scoreWord(name,tags,category,w);}
+  for(const c of p.concepts){let best=0;for(const e of c.english){best=Math.max(best,scoreWord(name,tags,category,e));}if(best){const phraseBoost=Math.min(65,c.match.length*4);score+=best+phraseBoost;coverage++;}}
+  if(p.concepts.length>1&&coverage>1)score+=coverage*45;
+  if(p.concepts.length>1&&coverage===p.concepts.length)score+=125;
+  return score;
+}
+function officialScore(r,p,nameOnly=false){
+  const raw=p.raw;if(!raw||!/[a-z0-9]/.test(raw)||/[^a-z0-9\s-]/.test(raw))return 0;
+  if(r.name===raw)return 2000;
+  let score=0;
+  if(r.name.startsWith(raw))score+=350;
+  if(r.name.split('-').includes(raw))score+=180;
+  if(raw.includes('-') && r.name.includes(raw))score+=100;
+  for(const e of raw.split(/\s+/).filter(Boolean)){score+=scoreWord(r.name,nameOnly?[]:r.tagsLower,'',e);}
+  return score;
+}
+const queryParts=q=>{
+  // Chinese natural language with no separators remains one phrase; spaces
+  // allow user-defined AND / OR conditions.
+  const parts=String(q).trim().split(/[\s，,；;]+/).map(t=>t.trim()).filter(t=>t&&!STOPWORDS.has(t));
+  return parts.length?parts:[String(q).trim()];
+};
+function searchPlan(q,mode){return q?queryParts(q).map(part=>planPart(part,mode)):[];}
+function oppositeMeaning(r,q,mode){
+  if(mode!=='smart')return false;
+  const phrase=compact(q),name=r.name;
+  const isUnlock=/(解鎖|開鎖|解除鎖|打開鎖|鎖解開)/.test(phrase);
+  const isLock=/(鎖住|鎖起來|鎖上|上鎖|加鎖|鎖牢|已上鎖|鎖頭)/.test(phrase)&&!isUnlock;
+  const isPin=/(釘選|釘住|置頂固定|固定住|固定在頂部)/.test(phrase)&&!/(取消|解除|拿掉|不再)/.test(phrase);
+  if(isLock && /^(lock-open|lock-off|unlock)/.test(name))return true;
+  if(isUnlock && ['lock','file-lock','lock-square','shield-lock'].includes(name))return true;
+  if(isPin && /^(pin-off|pinned-off)/.test(name))return true;
+  return false;
+}
+function recordScore(r,plan,mode='smart',rule='all'){
+  if(!plan.length)return 1;
+  const scores=plan.map(p=>mode==='smart'?smartScore(r,p):officialScore(r,p,mode==='name'));
+  if(rule==='all'&&scores.some(s=>s<=0))return 0;
+  const passed=scores.filter(s=>s>0);
+  if(!passed.length)return 0;
+  return passed.reduce((a,b)=>a+b,0)+(passed.length>1?passed.length*100:0);
+}
+function displayNotice(message,type='info'){
+  if(!message){els.notice.hidden=true;return;}
+  els.notice.hidden=false;els.notice.className='notice'+(type==='error'?' error':'');els.notice.innerHTML=message;
+}
+function toast(msg){clearTimeout(noticeTimer);els.toast.textContent=msg;els.toast.hidden=false;noticeTimer=setTimeout(()=>els.toast.hidden=true,2500);}
+function persist(){try{localStorage.setItem('icon-atlas-tabler-v3.50-favs',JSON.stringify([...favorites]));}catch(_e){}els.favCount.textContent=String(favorites.size);}
+function updateFavorite(r){const key=favKey(r);if(favorites.has(key))favorites.delete(key);else favorites.add(key);persist();if(selected&&favKey(selected)===key)updateDetailFavorite();runSearch(false);}
+function updateDetailFavorite(){if(!selected)return;const yes=favorites.has(favKey(selected));els.detailFavorite.textContent=yes?'★ 取消收藏':'☆ 加入收藏';}
+function updateButtons(){els.favTop.setAttribute('aria-pressed',String(onlyFavorites));els.favFilter.setAttribute('aria-pressed',String(onlyFavorites));els.favFilter.classList.toggle('active',onlyFavorites);els.favTop.style.borderColor=onlyFavorites?'#79c7d6':'';}
+function runSearch(reset=true){
+  if(reset)page=1;
+  if(!dataReady){els.grid.innerHTML='';els.pager.hidden=true;return;}
+  const q=els.search.value.trim();
+  const filtStyle=els.style.value, filtCat=els.category.value, filtGroup=els.useGroup.value;
+  const plan=searchPlan(q,els.matchMode.value);
+  const subset=[];
+  for(const r of records){if(filtStyle!=='all'&&r.style!==filtStyle)continue;if(filtCat!=='all'&&r.category!==filtCat)continue;if(filtGroup!=='all'&&!r.useGroups.includes(filtGroup))continue;if(q&&oppositeMeaning(r,q,els.matchMode.value))continue;if(onlyFavorites&&!favorites.has(favKey(r)))continue;const s=recordScore(r,plan,els.matchMode.value,els.wordRule.value);if(q&&s<=0)continue;subset.push({r,s});}
+  if(els.sort.value==='alpha'||!q){subset.sort((a,b)=>a.r.name.localeCompare(b.r.name,'en')||(a.r.style===b.r.style?0:a.r.style==='outline'?-1:1));}
+  else subset.sort((a,b)=>b.s-a.s||a.r.name.localeCompare(b.r.name,'en')||(a.r.style===b.r.style?0:a.r.style==='outline'?-1:1));
+  results=subset.map(x=>x.r);
+  els.resultTitle.textContent=onlyFavorites?'我的收藏圖示':q?`「${q.length>46?q.slice(0,46)+'…':q}」搜尋結果`:filtGroup==='all'?'所有官方圖示':'分類圖示';
+  const count=results.length, all=records.length;
+  const groupLabel=USE_GROUPS.find(g=>g.id===filtGroup)?.label;
+  const modeLabel={smart:'中文語意＋官方 Metadata',official:'官方名稱＋Tags',name:'官方英文名稱'}[els.matchMode.value];
+  els.resultMeta.textContent=`符合 ${count.toLocaleString('zh-TW')} / ${all.toLocaleString('zh-TW')} 個圖示樣式`+(groupLabel?` · 自訂分類：${groupLabel}`:'')+(q?` · ${modeLabel}`:' · 依官方英文名稱排序');
+  render();
+}
+function render(){
+  const per=Number(els.pageSize.value)||72,max=Math.max(1,Math.ceil(results.length/per));page=Math.min(Math.max(1,page),max);
+  const start=(page-1)*per,part=results.slice(start,start+per);
+  els.grid.innerHTML=part.map(r=>{const id=favKey(r),f=favorites.has(id),title=safe(textLabel(r));return `<article class="item"><button class="item-main" type="button" data-action="detail" data-id="${safe(id)}" aria-label="查看 ${title}（${safe(r.name)} ${safe(r.style)}）"><div class="art"><span class="style-dot">${r.style==='filled'?'FILLED':'OUTLINE'}</span><img loading="lazy" decoding="async" width="40" height="40" src="${svgUrl(r)}" alt="" onerror="this.style.opacity='.25'"></div><div class="item-body"><p class="zh" title="${title}">${title}</p><p class="icon-name" title="${safe(r.name)}">${safe(r.name)}</p><span class="cat">${safe(CATEGORY_ZH[r.category]||r.category||'其他')}</span></div></button><div class="item-bottom"><button class="small-btn" type="button" data-action="copy" data-id="${safe(id)}" title="複製 Vue 元件名稱">複製名稱</button><button class="small-btn favorite ${f?'on':''}" type="button" data-action="favorite" data-id="${safe(id)}" aria-pressed="${f}" aria-label="${f?'移除收藏':'加入收藏'} ${safe(r.name)}">${f?'★':'☆'}</button></div></article>`;}).join('');
+  els.empty.hidden=!!part.length;
+  if(!part.length){if(!dataReady){els.emptyTitle.textContent='正在載入…';}else if(onlyFavorites&&favorites.size===0){els.emptyTitle.textContent='還沒有收藏的圖示';els.emptyText.textContent='先回到全部圖示，在喜歡的圖示上點選 ☆ 即可加入收藏。';}else{els.emptyTitle.textContent='沒有找到符合的圖示';els.emptyText.textContent='可以改用較短的物件名稱或動作，例如「圖釘」、「訊號」、「鎖住」、「取用」。多詞搜尋可選「符合任一（OR）」；若選擇官方名稱模式，請使用英文。';}}
+  els.pager.hidden=!results.length||max<=1;
+  els.pageLabel.textContent=`第 ${page.toLocaleString()} / ${max.toLocaleString()} 頁`;
+  els.jumpPage.max=String(max);els.jumpPage.value=String(page);
+  $('firstPage').disabled=$('prevPage').disabled=page<=1;
+  $('nextPage').disabled=$('lastPage').disabled=page>=max;
+}
+function openDetail(r){selected=r;
+  els.detailType.textContent=`TABLER ${r.style.toUpperCase()} · v${VERSION}`;
+  els.detailName.textContent=r.name;
+  els.detailZh.textContent=textLabel(r);
+  els.detailCat.textContent=`${CATEGORY_ZH[r.category]||r.category||'其他'} / ${r.category||'Uncategorized'}`;
+  els.detailGroups.innerHTML=r.useGroups.map(id=>`<span class="detail-pill">${safe(USE_GROUPS.find(g=>g.id===id)?.label||'其他')}</span>`).join('');
+  const aliases=getAliases(r);els.detailAliasesLabel.hidden=els.detailAliases.hidden=!aliases.length;
+  els.detailAliases.innerHTML=aliases.map(x=>`<span class="detail-pill">${safe(x)}</span>`).join('');
+  els.detailTags.innerHTML=(r.tags.length?r.tags:['官方未提供 Tags']).map(t=>`<span class="detail-pill">${safe(t)}</span>`).join('');
+  els.detailComponent.textContent=iconComponent(r);
+  els.detailImg.src=svgUrl(r);els.detailImg.alt=r.name+' 圖示預覽';
+  els.officialLink.href=`https://tabler.io/icons?icon=${encodeURIComponent(r.name)}`;
+  els.svgLink.href=svgUrl(r);
+  updateDetailFavorite();els.detail.showModal();
+}
+async function copyText(str){
+  try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(str);return true;}}catch(_e){}
+  const ta=document.createElement('textarea');ta.value=str;ta.style.cssText='position:fixed;left:-9999px;top:0';document.body.appendChild(ta);ta.select();let ok=false;try{ok=document.execCommand('copy');}catch(_e){}ta.remove();return ok;
+}
+async function retrieveSVG(r){const response=await fetch(svgUrl(r),{mode:'cors'});if(!response.ok)throw Error('SVG HTTP '+response.status);const text=await response.text();if(!text.includes('<svg'))throw Error('無效的 SVG 回應');return text;}
+async function doCopy(str,what='內容'){toast(await copyText(str)?`已複製${what}`:`無法自動複製${what}，請改從官方連結開啟並複製。`);}
+async function downloadSVG(r){try{const str=await retrieveSVG(r);const a=document.createElement('a'),url=URL.createObjectURL(new Blob([str],{type:'image/svg+xml;charset=utf-8'}));a.href=url;a.download=`${r.name}${r.style==='filled'?'-filled':''}.svg`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);toast('已觸發 SVG 下載');}catch(e){toast('下載失敗，請使用「開啟官方 SVG」連結');}}
+function filterFavorites(){onlyFavorites=!onlyFavorites;updateButtons();runSearch();}
+async function init(){
+  let data=null,lastErr=null;
+  for(const src of META_SOURCES){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),18000);try{
+    const resp=await fetch(src,{signal:controller.signal,cache:'force-cache'});if(!resp.ok)throw Error(`${resp.status} ${resp.statusText}`);
+    data=await resp.json();if(!data||typeof data!=='object'||Array.isArray(data)||Object.keys(data).length<1000)throw Error('Metadata 格式異常');
+    break;
+  }catch(e){lastErr=e;}finally{clearTimeout(timer);}}
+  if(!data){dataReady=false;els.totalCount.textContent='讀取失敗';els.totalDetail.textContent='請檢查網路';displayNotice(`無法連線取得官方 <code>@tabler/icons@${VERSION}</code> Metadata，因此無法可靠列出「全系列」圖示。請確認網路及 CDN 存取後重新整理本頁。<a target="_blank" rel="noopener noreferrer" href="${META_SOURCES[0]}">檢查官方套件索引 ↗</a>`,'error');els.resultMeta.textContent='官方 Metadata 未讀取；未以猜測資料填充圖示清單。';els.grid.innerHTML='';els.empty.hidden=false;els.emptyTitle.textContent='官方圖示清單讀取失敗';els.emptyText.textContent='這個 HTML 使用固定版本的官方圖示索引。若開啟時沒有網路，請連上網路並重新整理。';return;}
+  let outlines=0,filled=0;const cats=new Set();
+  for(const [name,info] of Object.entries(data)){
+    if(!/^[a-z0-9-]+$/.test(name))continue;
+    const category=typeof info.category==='string'?info.category:'';
+    const tags=Array.isArray(info.tags)?info.tags.filter(x=>typeof x==='string'):[];
+    const styles=info.styles||{};
+    for(const style of ['outline','filled']){
+      if(!(style in styles))continue;
+      const r={name,style,category,categoryLower:category.toLowerCase(),categoryZh:CATEGORY_ZH[category]||category,tags,tagsLower:tags.map(t=>t.toLowerCase()),tagsFlat:tags.join(' ').toLowerCase()};
+      r.zhNorm=compact(textLabel(r));
+      r.aliasesNorm=getAliases(r).map(x=>compact(x));
+      r.directNameExact=new Set(name.split('-').flatMap(part=>DIRECT_TRANSLATIONS[part]||[]).map(compact));
+      r.directTagExact=new Set(tags.flatMap(tag=>String(tag).toLowerCase().split(/[\s_-]+/).flatMap(word=>DIRECT_TRANSLATIONS[word]||[])).map(compact));
+      r.useGroups=getUseGroups(r);
+      records.push(r);if(style==='outline')outlines++;else filled++;if(category)cats.add(category);
+    }
+  }
+  records.sort((a,b)=>a.name.localeCompare(b.name,'en'));
+  if(records.length<1000)throw Error('官方 Metadata 中圖示數量不足');
+  const opts=[...cats].sort((a,b)=>a.localeCompare(b,'en')).map(c=>`<option value="${safe(c)}">${safe(CATEGORY_ZH[c]||c)} · ${safe(c)}</option>`);
+  els.category.insertAdjacentHTML('beforeend',opts.join(''));
+  els.useGroup.insertAdjacentHTML('beforeend',USE_GROUPS.map(g=>`<option value="${safe(g.id)}">${safe(g.label)}</option>`).join(''));
+  dataReady=true;els.totalCount.textContent=records.length.toLocaleString('zh-TW');els.totalDetail.textContent=`Outline ${outlines.toLocaleString()} · Filled ${filled.toLocaleString()}`;
+  if(records.length===6257&&outlines===5203&&filled===1054){displayNotice('');}
+  else displayNotice(`已從官方資料載入 <b>${records.length.toLocaleString()}</b> 個圖示樣式（Outline ${outlines}，Filled ${filled}）。與官方 README 列示的 6,257 個略有差異，請以實際載入資料為準。`);
+  const urlParams=new URLSearchParams(location.search);const initial=urlParams.get('q');if(initial)els.search.value=initial;
+  runSearch();
+}
+let debounce;
+els.search.addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(()=>runSearch(),110);});
+els.search.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&els.search.value){els.search.value='';runSearch();}});
+$('clearSearch').addEventListener('click',()=>{els.search.value='';els.search.focus();runSearch();});
+for(const field of ['style','category','useGroup','matchMode','wordRule','sort','pageSize'])els[field].addEventListener('change',()=>runSearch());
+$('resetAll').addEventListener('click',()=>{els.search.value='';els.style.value='all';els.category.value='all';els.useGroup.value='all';els.matchMode.value='smart';els.wordRule.value='all';els.sort.value='relevance';els.pageSize.value='72';$('advancedFilters').open=false;onlyFavorites=false;updateButtons();runSearch();});
+for(const el of document.querySelectorAll('[data-query]'))el.addEventListener('click',()=>{els.search.value=el.dataset.query;onlyFavorites=false;updateButtons();runSearch();els.search.focus();});
+$('favTop').addEventListener('click',filterFavorites);$('favFilter').addEventListener('click',filterFavorites);
+function goPage(n){page=n;render();const target=document.querySelector('.body');const sticky=document.querySelector('.search-sticky').getBoundingClientRect().height+15;const y=target.getBoundingClientRect().top+window.scrollY-sticky;window.scrollTo({top:Math.max(0,y),behavior:'smooth'});}
+$('firstPage').addEventListener('click',()=>goPage(1));$('prevPage').addEventListener('click',()=>goPage(page-1));$('nextPage').addEventListener('click',()=>goPage(page+1));$('lastPage').addEventListener('click',()=>goPage(Math.ceil(results.length/Number(els.pageSize.value))));
+$('jumpBtn').addEventListener('click',()=>goPage(Number(els.jumpPage.value)||1));els.jumpPage.addEventListener('keydown',ev=>{if(ev.key==='Enter')goPage(Number(els.jumpPage.value)||1);});
+const byId=id=>records.find(r=>favKey(r)===id);
+els.grid.addEventListener('click',ev=>{const b=ev.target.closest('button[data-action]');if(!b)return;const r=byId(b.dataset.id);if(!r)return;const a=b.dataset.action;if(a==='detail')openDetail(r);else if(a==='copy')doCopy(iconComponent(r),' Vue 名稱');else if(a==='favorite')updateFavorite(r);});
+$('closeDetail').addEventListener('click',()=>els.detail.close());els.detail.addEventListener('click',ev=>{if(ev.target===els.detail)els.detail.close();});
+$('copyName').addEventListener('click',()=>selected&&doCopy(iconComponent(selected),' Icon 名稱'));
+$('copyVue').addEventListener('click',()=>selected&&doCopy(`<${iconComponent(selected)} :size="24" :stroke="${selected.style==='filled'?0:2}" />`,' Vue 程式碼'));
+$('copySVG').addEventListener('click',async()=>{if(!selected)return;try{await doCopy(await retrieveSVG(selected),' SVG 原始碼');}catch(e){toast('讀取官方 SVG 失敗，請使用右下方原始連結');}});
+$('downloadSVG').addEventListener('click',()=>selected&&downloadSVG(selected));
+$('detailFavorite').addEventListener('click',()=>selected&&updateFavorite(selected));
+$('exportFav').addEventListener('click',()=>{
+  const items=records.filter(r=>favorites.has(favKey(r)));if(!items.length){toast('目前沒有可匯出的收藏圖示');return;}
+  const quote=v=>'"'+String(v??'').replace(/"/g,'""')+'"';const csv='\uFEFF'+[['名稱','樣式','中文輔助名稱','官方分類','Vue元件名稱','SVG URL'].map(quote).join(','),...items.map(r=>[r.name,r.style,textLabel(r),r.category,iconComponent(r),svgUrl(r)].map(quote).join(','))].join('\r\n');
+  const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='Tabler_Icons_收藏清單.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast(`已匯出 ${items.length} 個收藏圖示`);
+});
+document.addEventListener('keydown',ev=>{if(ev.key==='/'&&!ev.ctrlKey&&!ev.metaKey&&!els.detail.open&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){ev.preventDefault();els.search.focus();}});
+persist();updateButtons();init().catch(e=>{console.error('Index load:',e);displayNotice('官方 Metadata 解析失敗。請確認網路並重新整理。','error');els.resultMeta.textContent='索引尚未成功建立';});
+/* Keep the search field visible without changing layout dimensions while scrolling. */
+(function setupFilterShortcut(){
+  const filterButton=document.getElementById('filterToggle');
+  const filterPanel=document.getElementById('primaryFilters');
+  filterButton.addEventListener('click',()=>{
+    const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    filterPanel.scrollIntoView({behavior:reducedMotion?'instant':'smooth',block:'start'});
+  });
+})();
+
+</script>
+</body></html>
